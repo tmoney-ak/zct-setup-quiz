@@ -1,0 +1,881 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZCT Setup Quality Quiz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f6f6;--card:#fff;--ink:#1a1a1a;--muted:#6b7575;--line:#e2e7e7;--teal:#2b8b89;--teal-ink:#fff;
+  --win:#1e7a52;--loss:#b03a2e;--amber:#8a5a00;--yes-bg:#e9f5ef;--mid-bg:#fdf3dc;--no-bg:#fbecea}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 "PT Sans",system-ui,sans-serif}
+header{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.bar{max-width:1080px;margin:0 auto;padding:12px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px}
+.brand{font-weight:700;font-size:17px}.brand span{color:var(--teal)}
+.who{color:var(--muted)}.grow{flex:1}
+.stat{font-size:13px;color:var(--muted)}.stat b{color:var(--ink)}
+.progress{height:3px;background:var(--line)}.progress i{display:block;height:100%;width:0;background:var(--teal);transition:width .3s}
+main{max-width:1080px;margin:0 auto;padding:18px 16px 40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+h2{margin:0 0 4px;font-size:20px}h3{font-size:15px;margin:0 0 8px}
+.head{padding:18px;border-bottom:1px solid var(--line)}
+.sub{color:var(--muted);margin:0;font-size:14px}
+.body{padding:18px;display:grid;gap:16px}
+button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--line);background:#fff;color:var(--ink);padding:10px 18px}
+button:hover{border-color:#b9c2c2}button:disabled{opacity:.45;cursor:default}
+.primary{background:var(--teal);border-color:var(--teal);color:var(--teal-ink);font-weight:700}
+.primary:hover{border-color:#1f6e6c;background:#257e7c}
+.ghost{background:transparent;border-color:transparent;color:var(--muted);padding:8px 6px}
+.ghost:hover{color:var(--ink);border-color:transparent}
+.kbd{font-size:11px;opacity:.7;margin-left:6px}
+[hidden]{display:none!important}
+
+/* start */
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.pick{border:2px solid var(--line);border-radius:12px;padding:16px;cursor:pointer;display:grid;gap:8px;text-align:left;background:#fff}
+.pick:hover{border-color:#b9c2c2}.pick.on{border-color:var(--teal);background:#f2f8f8}
+.pick .t{font-size:18px;font-weight:700}.pick .c{font-size:13px;color:var(--muted)}
+.pick ol{margin:0;padding-left:18px;font-size:14px;display:grid;gap:4px}
+.pick ol b{color:var(--teal)}
+.fields{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:end}
+.fields label{display:grid;gap:4px;font-size:13px;color:var(--muted)}
+.fields input,.fields select{font:inherit;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:#fff;min-width:200px}
+.guide{border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px}
+.guide ol{margin:6px 0 0;padding-left:20px;display:grid;gap:8px}
+.guide .want{font-weight:700;color:var(--teal)}
+.legend{font-size:13px;color:var(--muted)}
+.resume{border:1px solid #cfe8dc;background:#f2f8f8;border-radius:10px;padding:12px 16px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+
+/* quiz */
+#quiz{scroll-margin-top:62px}
+.meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.meta .n{color:var(--muted);font-size:13px}.meta .coin{font-size:20px;font-weight:700}
+.pill{font-size:12px;font-weight:700;padding:2px 8px;border-radius:5px;border:1px solid var(--line)}
+.pill.long{color:var(--win);background:#e9f5ef;border-color:#cfe8dc}.pill.short{color:var(--loss);background:#fbecea;border-color:#f1d2ce}
+.pill.kind{color:var(--ink);background:#f1f3f3}
+.meta .when{color:var(--muted);font-size:13px}
+.chartwrap{position:relative;background:#fff}
+canvas.chart{display:block;width:100%;height:520px;touch-action:pan-y;cursor:grab}
+canvas.chart.dragging{cursor:grabbing}
+.zoombar{position:absolute;left:14px;top:10px;display:flex;gap:6px}
+.zoombar button{padding:4px 10px;font-size:15px;line-height:1.2;background:rgba(255,255,255,.92)}
+.zoombar #z-in,.zoombar #z-out{width:34px;font-weight:700}
+.overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:var(--muted);background:rgba(255,255,255,.85)}
+.src{padding:6px 18px;font-size:12px;color:var(--muted);border-top:1px solid var(--line)}
+.ask{padding:18px;border-top:1px solid var(--line);display:grid;gap:14px}
+.ask .lead{font-size:17px;font-weight:700;margin:0}
+.qrow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 16px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.qrow:first-of-type{border-top:none}
+.qrow .qt{font-weight:700}.qrow .qh{font-size:13px;color:var(--muted)}
+.opts{display:flex;gap:8px}
+.opt{padding:8px 14px;min-width:104px;font-weight:700}
+.opt.on.yes{background:var(--yes-bg);border-color:#7fc4a3;color:var(--win)}
+.opt.on.mid{background:var(--mid-bg);border-color:#e3bd62;color:var(--amber)}
+.opt.on.no{background:var(--no-bg);border-color:#e49c94;color:var(--loss)}
+.read{font-size:14px;color:var(--muted)}.read b{color:var(--ink)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.result{padding:18px;border-top:1px solid var(--line);display:grid;gap:16px}
+.rbig{font-size:24px;font-weight:700}
+.marks{border-collapse:collapse;width:100%;font-size:14px}
+.marks th,.marks td{text-align:left;padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
+.marks th{font-size:12px;color:var(--muted);font-weight:400;text-transform:uppercase;letter-spacing:.04em}
+.chip{display:inline-block;font-weight:700;padding:1px 8px;border-radius:5px;white-space:nowrap}
+.chip.yes{background:var(--yes-bg);color:var(--win)}.chip.mid{background:var(--mid-bg);color:var(--amber)}.chip.no{background:var(--no-bg);color:var(--loss)}
+.v.ok{color:var(--win);font-weight:700}.v.near{color:var(--amber);font-weight:700}.v.off{color:var(--loss);font-weight:700}
+.said{font-size:13px;color:var(--muted)}
+.scores{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.tile{border:1px solid var(--line);border-radius:10px;padding:14px}
+.tile .k{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.tile .v{font-size:22px;font-weight:700;margin:2px 0}.tile .d{font-size:13px;color:var(--muted)}
+.coach{border-left:3px solid var(--teal);padding:2px 0 2px 14px}
+.coach ul{margin:6px 0 0;padding-left:18px;display:grid;gap:6px;font-size:14px}
+.shot{display:grid;gap:8px}
+.shot img{width:100%;height:auto;border:1px solid var(--line);border-radius:8px;display:block}
+.shot a{color:var(--teal);font-size:13px}
+.outcome{font-size:15px}.outcome b.target{color:var(--win)}.outcome b.stop{color:var(--loss)}
+.notes{padding:14px 18px;border-top:1px solid var(--line);display:grid;gap:6px}
+.notes label{font-weight:700;font-size:14px}.notes label span{font-weight:400;color:var(--muted);font-size:12px;margin-left:6px}
+.notes textarea{width:100%;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:8px;padding:8px 10px;resize:vertical}
+.nav{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;padding:0 18px 14px}
+
+/* summary */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;padding:18px}
+.tablewrap{overflow-x:auto;padding:0 18px 18px}
+table.t{border-collapse:collapse;width:100%;font-size:14px;min-width:640px}
+table.t th,table.t td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+table.t th{font-size:12px;color:var(--muted);font-weight:400;text-transform:uppercase;letter-spacing:.04em}
+table.t td.num,table.t th.num{text-align:right;font-variant-numeric:tabular-nums}
+table.t td.note{white-space:normal;max-width:260px;color:var(--muted)}
+.exports{display:flex;flex-wrap:wrap;gap:10px;padding:0 18px 18px}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:20px 16px 40px}
+footer a{color:var(--muted)}
+
+/* coach review */
+.rv{display:grid;gap:14px}
+.rv .card{padding:14px;display:grid;gap:10px}
+.rv .two{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}
+.rv img{width:100%;border:1px solid var(--line);border-radius:8px}
+.rv canvas.chart{height:300px;cursor:default;border:1px solid var(--line);border-radius:8px}
+.rv .cap{font-size:12px;color:var(--muted);margin:2px 0 6px}
+.flag{color:var(--amber);font-size:13px}.flag.hold{color:var(--loss);font-weight:700}
+@media (max-width:760px){canvas.chart{height:380px}.qrow{grid-template-columns:1fr}.opt{flex:1;min-width:0}.rv .two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="brand">ZCT <span>Setup Quality Quiz</span></div>
+    <div class="who" id="who"></div>
+    <div class="grow"></div>
+    <div class="stat" id="s-progress" hidden>Graded <b id="s-done">0</b>/<b id="s-total">0</b></div>
+    <div class="stat" id="s-score" hidden>Variables right <b id="s-right">0</b>/<b id="s-asked">0</b></div>
+    <button class="ghost" id="to-summary" hidden>Summary</button>
+    <button class="ghost" id="to-start" hidden>Change exercise</button>
+  </div>
+  <div class="progress"><i id="prog"></i></div>
+</header>
+
+<main>
+  <!-- start: choose the exercise -->
+  <section class="card" id="start">
+    <div class="head">
+      <h2>Grade the top 3 variables</h2>
+      <p class="sub">Each chart stops at the moment the trade was entered. You grade the three variables that decide the setup's quality, then see the coach's grading and watch the trade play out.</p>
+    </div>
+    <div class="body">
+      <div class="picks" id="picks"></div>
+      <div class="resume" id="resume" hidden></div>
+      <div class="guide" id="guide" hidden></div>
+      <div class="fields">
+        <label>Your name <input type="text" id="name" placeholder="First name" autocomplete="given-name"></label>
+        <label>Charts in this set
+          <select id="count"><option value="10">10 charts</option><option value="25" selected>25 charts</option><option value="50">50 charts</option><option value="all">All of them</option></select>
+        </label>
+        <button class="primary" id="b-start" disabled>Start</button>
+      </div>
+      <div class="sub" id="start-note"></div>
+    </div>
+  </section>
+
+  <!-- one chart -->
+  <section class="card" id="quiz" hidden>
+    <div class="meta">
+      <span class="n" id="m-n"></span>
+      <span class="coin" id="m-coin"></span>
+      <span class="pill" id="m-side"></span>
+      <span class="pill kind" id="m-kind"></span>
+      <span class="when" id="m-when"></span>
+    </div>
+    <div class="chartwrap">
+      <canvas class="chart" id="chart"></canvas>
+      <div class="zoombar">
+        <button id="z-in" title="Zoom in" aria-label="Zoom in">+</button>
+        <button id="z-out" title="Zoom out" aria-label="Zoom out">−</button>
+        <button id="z-reset" hidden>Reset zoom</button>
+      </div>
+      <div class="overlay" id="overlay">Loading candles…</div>
+    </div>
+    <div class="src" id="src"></div>
+
+    <div class="ask" id="ask">
+      <p class="lead" id="ask-lead"></p>
+      <div id="qrows"></div>
+      <div class="row">
+        <div class="read" id="read"></div>
+        <button class="primary" id="b-submit" disabled>Lock in my grading<span class="kbd">Enter</span></button>
+      </div>
+      <div class="legend" id="ask-legend"></div>
+    </div>
+
+    <div class="result" id="result" hidden>
+      <div class="rbig" id="r-big"></div>
+      <table class="marks" id="r-marks"></table>
+      <div class="scores" id="r-scores"></div>
+      <div class="outcome" id="r-outcome"></div>
+      <div class="coach" id="r-coach"></div>
+      <div class="shot" id="r-shot"></div>
+      <div class="row">
+        <button class="ghost" id="b-replay">Replay the trade</button>
+        <button class="primary" id="b-next">Next chart<span class="kbd">Enter</span></button>
+      </div>
+    </div>
+    <div class="notes">
+      <label for="note">Your notes on this chart <span>optional · saved as you type</span></label>
+      <textarea id="note" rows="2" placeholder="What made a variable hard to call?"></textarea>
+    </div>
+    <div class="nav">
+      <button class="ghost" id="b-prev">← Previous</button>
+      <button class="ghost" id="b-skip" hidden>Chart won't load: skip it →</button>
+    </div>
+  </section>
+
+  <!-- summary -->
+  <section class="card" id="summary" hidden>
+    <div class="head">
+      <h2>Your results</h2>
+      <p class="sub" id="sum-sub"></p>
+    </div>
+    <div class="tiles" id="tiles"></div>
+    <div class="tablewrap" id="by-var"></div>
+    <div class="tablewrap"><h3>Every chart</h3><table class="t" id="sum-table"></table></div>
+    <div class="exports">
+      <button class="primary" id="x-csv">Export CSV</button>
+      <button id="x-json">Export JSON</button>
+      <button class="ghost" id="back-quiz">Back to the charts</button>
+      <button class="ghost" id="new-set">Start a new set</button>
+    </div>
+  </section>
+
+  <!-- coach review: every trade next to its screenshot (open with ?review=momo or ?review=mr) -->
+  <section id="review" hidden>
+    <div class="card" style="margin-bottom:14px">
+      <div class="head">
+        <h2 id="rv-title">Coach review</h2>
+        <p class="sub">The original screenshot beside the rebuilt chart: as the student sees it (stopped at the entry) and played out. Check that the entry sits on the same candle as in the screenshot.</p>
+      </div>
+      <div class="body">
+        <div class="fields">
+          <label>Show <select id="rv-filter"><option value="all">Every trade</option><option value="flag">Only trades with a note or held back</option><option value="hold">Only trades held back from the quiz</option></select></label>
+          <span class="sub" id="rv-count"></span>
+        </div>
+      </div>
+    </div>
+    <div class="rv" id="rv-list"></div>
+  </section>
+</main>
+<footer>Your answers are saved in this browser. Export the CSV or JSON to send them to your coach. · <a href="?review=momo">Coach review: momentum</a> · <a href="?review=mr">mean reversion</a></footer>
+
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const pad3 = n => String(n).padStart(3, "0");
+
+const PRE_GAP = 0.18;          // empty share on the right before the reveal: fixed, so it doesn't hint at the trade's length
+const ENTRY_LEAD = 90;         // candles before the entry over which the entry price is drawn as a line
+const STORE = "zct-setup-quiz:";
+
+// ---------- the two exercises ----------
+// Questions, hints and the mark legend are the wording of the two "100 High Quality ... Trade Screenshots" docs.
+// Points and bands are the Top 3 Variables DPS template: 2 / 1 / 0 per variable, 0-6 in total.
+const EX = {
+  momo: {
+    name: "Momentum", tag: "Momo", good: "Momo",
+    want: ["SLOW GRIND", "INCREASING OVER TIME", "GRINDY STAIRCASE"],
+    qs: [
+      { short: "Approach", q: "Did the price slowly grind into the level?", hint: "How price approached the level: the previous 1–10 minutes",
+        guide: "The most important of the three. A fast spike into the level has averaged a 30% win rate for momentum trades (600+ student trades analysed). If price does a fast spike into your entry level, it's best not to take the trade." },
+      { short: "Volume", q: "Was the volume consistently increasing?", hint: "The average volume at the entry against the start of the move",
+        guide: "The most important thing to avoid is decreasing volume over time. Flat volume is still acceptable to trade. Increasing volume works in favour of momentum." },
+      { short: "Left-hand side", q: "Was there a “grindy staircase” on the left hand side?", hint: "The previous 4–8 hours: ideally at least 2 hours of staircase",
+        guide: "You want a grindy staircase and the absence of a choppy range. Careful with a choppy range that's slanted upwards: it looks like a staircase but gives very different results. Price rejecting nearby levels 3+ times, or slicing through the moving averages many times, means choppy." },
+    ],
+  },
+  mr: {
+    name: "Mean reversion", tag: "MR", good: "MR",
+    want: ["FAST SPIKE", "FLAT OR DECREASING", "CHOPPY / SIDEWAYS"],
+    qs: [
+      { short: "Approach", q: "Did the price spike into the level?", hint: "How price approached the level: the previous 1–10 minutes",
+        guide: "The most important of the three. A fast spike into the level has averaged a 70% win rate for mean reversion (600+ student trades analysed). The bigger the spike and the steeper its slope, the higher the margin of error." },
+      { short: "Volume", q: "Was the volume decreasing or flat?", hint: "The average volume before the spike: the spike's own candles pull the average up",
+        guide: "The most important thing to avoid is increasing volume over time, because that is what works for momentum trades. Decreasing or flat volume is harmful for the momentum traders you are counter-trading." },
+      { short: "Left-hand side", q: "Was there a choppy/sideways price action on the left hand side?", hint: "The previous 4–8 hours",
+        guide: "You want a choppy range and the absence of a grindy staircase. Careful with a choppy range that's slanted upwards: it can look like a staircase. Price rejecting nearby levels 3+ times, or slicing through the moving averages many times, means choppy." },
+    ],
+  },
+};
+const MARK = { yes: { icon: "✅", word: "Yes", pts: 2 }, mid: { icon: "⚠️", word: "Unclear", pts: 1 }, no: { icon: "❌", word: "No", pts: 0 } };
+const ORDER = ["yes", "mid", "no"];
+const scoreOf = marks => marks.reduce((s, m) => s + (MARK[m] ? MARK[m].pts : 0), 0);
+function band(score) {
+  return score >= 6 ? { level: "Max Confidence", action: "Standard Risk (1%)" }
+    : score >= 4 ? { level: "High Confidence", action: "Standard Risk (1%)" }
+    : score === 3 ? { level: "Low Confidence", action: "Dummy Trade (0.1%)" }
+    : { level: "Avoid", action: "Stay Away" };
+}
+const chip = m => (MARK[m] ? `<span class="chip ${m}">${MARK[m].icon} ${MARK[m].word}</span>` : "-");
+
+// ---------- data: one list per exercise, one small file per trade (plain scripts, so the page also opens from a folder) ----------
+const SETS = {}, RAW = {};
+window.zctSet = d => { SETS[d.kind] = d; };
+window.zctTrade = d => { RAW[d.k + ":" + d.n] = d; };
+function loadScript(src) {
+  return new Promise((res, rej) => {
+    const s = document.createElement("script");
+    s.src = src; s.onload = res; s.onerror = () => rej(new Error("Couldn't load " + src));
+    document.head.appendChild(s);
+  });
+}
+const cache = {};
+function candlesFor(kind, n) {
+  const key = kind + ":" + n;
+  if (!cache[key]) {
+    cache[key] = loadScript(`data/${kind}/${pad3(n)}.js`).then(() => {
+      const p = RAW[key];
+      const bars = p.b.map((k, i) => ({ t: p.ts ? p.ts[i] : p.t + i * 60000, o: k[0], h: k[1], l: k[2], c: k[3], v: k[4], a: p.a[i], s: p.s[i], va: p.v[i] }));
+      return { bars, entryIdx: p.i, exitIdx: p.x == null ? null : p.x };
+    }).catch(err => ({ error: err.message || String(err) }));
+  }
+  return cache[key];
+}
+const usable = kind => (SETS[kind] ? SETS[kind].trades.filter(t => !t.hold) : []);
+
+// ---------- formatting ----------
+function fmt(p) {
+  if (p == null || isNaN(p)) return "-";
+  const d = Math.min(8, Math.max(2, 4 - Math.floor(Math.log10(Math.abs(p) || 1))));
+  return Number(p).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d });
+}
+const fmtR = r => (r == null || isNaN(r) ? "" : (r > 0 ? "+" : "") + Number(r).toFixed(2) + "R");
+const utcName = off => "UTC" + (off ? (off > 0 ? "+" : "−") + Math.abs(off) : "");
+function clock(ms, off, withDate) {
+  const d = new Date(ms + (off || 0) * 3600e3), p = n => String(n).padStart(2, "0");
+  const hm = p(d.getUTCHours()) + ":" + p(d.getUTCMinutes());
+  return withDate ? d.getUTCDate() + " " + d.toLocaleString("en-US", { month: "short", timeZone: "UTC" }) + " " + d.getUTCFullYear() + ", " + hm : hm;
+}
+
+// ---------- chart ----------
+const C = { up: "#26a69a", down: "#ef5350", grid: "#eef1f1", axis: "#8a9494", entry: "#4c1d95", stop: "#c0392b", target: "#1a1a1a",
+  marker: "#a87d00", ma30: "#0f5f58", ma120: "#9b4dca", volavg: "#2962ff" };
+const MIN_BARS = 20;
+
+function rangeOf(bars, extra) {
+  let lo = Infinity, hi = -Infinity;
+  for (const k of bars) { lo = Math.min(lo, k.l); hi = Math.max(hi, k.h); }
+  for (const p of extra || []) if (p != null && !isNaN(p)) { lo = Math.min(lo, p); hi = Math.max(hi, p); }
+  const pad = (hi - lo) * 0.07 || hi * 0.01;
+  return [lo - pad, hi + pad];
+}
+function niceTicks(lo, hi, n) {
+  const raw = (hi - lo) / n, mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  const step = [1, 2, 2.5, 5, 10].map(m => m * mag).find(s => s >= raw);
+  const out = [];
+  for (let p = Math.ceil(lo / step) * step; p <= hi; p += step) out.push(p);
+  return out;
+}
+// the entry candle as it stood at the moment of the fill: from its open to the entry price, nothing after
+function liveBar(d, trade) {
+  const k = d.bars[d.entryIdx], e = trade.entry;
+  return Object.assign({}, k, { c: e, h: Math.max(k.o, e), l: Math.min(k.o, e), a: null, s: null, va: null });
+}
+// a view = one trade on one canvas: {cv, trade, d, phase: "pre" | "reveal" | "done", shown, yLo, yHi, nView, zoom}
+function makeView(cv, trade, d, phase) {
+  const v = { cv, trade, d, phase, zoom: null, live: liveBar(d, trade) };
+  if (phase === "pre") {
+    const pre = d.bars.slice(0, d.entryIdx).concat([v.live]);
+    [v.yLo, v.yHi] = rangeOf(pre, [trade.entry, trade.stop, trade.target]);
+    v.shown = d.entryIdx + 1; v.nView = (d.entryIdx + 1) / (1 - PRE_GAP);
+  } else {
+    [v.yLo, v.yHi] = rangeOf(d.bars, [trade.entry, trade.stop, trade.target]);
+    v.shown = d.bars.length; v.nView = d.bars.length;
+  }
+  return v;
+}
+const zoomMax = v => (v.phase === "pre" ? v.nView : v.d.bars.length);
+function setZoom(v, lo, hi) {
+  const max = zoomMax(v);
+  const w = Math.min(Math.max(hi - lo, MIN_BARS), max);
+  // before the answer the empty space after the entry keeps the same share of the view at any zoom
+  const right = v.phase === "pre" ? v.d.entryIdx + 1 + PRE_GAP * w : max;
+  lo = Math.min(Math.max(lo, 0), right - w);
+  v.zoom = w >= max - 0.5 ? null : { lo, hi: lo + w };
+  $("z-reset").hidden = !v.zoom;
+  draw(v);
+}
+function zoomBy(v, f, anchor) {
+  if (!v || v.anim && v.phase === "reveal") return;
+  const lo = v.zoom ? v.zoom.lo : 0, hi = v.zoom ? v.zoom.hi : zoomMax(v);
+  const at = lo + (hi - lo) * anchor, w = (hi - lo) * f;
+  setZoom(v, at - w * anchor, at - w * anchor + w);
+}
+
+function draw(v) {
+  if (!v) return;
+  const cv = v.cv, ctx = cv.getContext("2d");
+  const dpr = window.devicePixelRatio || 1, W = cv.clientWidth, H = cv.clientHeight;
+  if (cv.width !== W * dpr || cv.height !== H * dpr) { cv.width = W * dpr; cv.height = H * dpr; }
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, W, H);
+  const { d, trade } = v, bars = d.bars, N = bars.length, pre = v.phase === "pre";
+  const axisW = W < 500 ? 62 : 78, x0 = 8, x1 = W - axisW, yTop = 14, yBot = H - 26;
+  // price pane on top, volume pane (about a fifth of the height) under it
+  const vH = Math.round((yBot - yTop) * 0.2), vTop = yBot - vH, pBot = vTop - 12;
+  const dLo = v.zoom ? v.zoom.lo : 0, dHi = v.zoom ? v.zoom.hi : v.nView;
+  const slot = (x1 - x0) / (dHi - dLo);
+  const first = Math.max(0, Math.floor(dLo)), last = Math.min(v.shown, N, Math.ceil(dHi) + 1);
+  const bar = i => (pre && i === d.entryIdx ? v.live : bars[i]);
+  let lo = v.yLo, hi = v.yHi;
+  if (v.zoom) {   // fit the price axis to what's in view
+    const vis = []; for (let i = first; i < Math.max(first + 1, last); i++) vis.push(bar(i));
+    [lo, hi] = rangeOf(vis, [trade.entry]);
+  }
+  v.geom = { x0, x1, dLo, dHi };
+  const X = i => x0 + (i - dLo + 0.5) * slot, Y = p => pBot - (p - lo) / (hi - lo) * (pBot - yTop);
+  ctx.font = "12px 'PT Sans', sans-serif";
+
+  // grid + price axis
+  const ticks = [];
+  for (const p of niceTicks(lo, hi, 6)) {
+    const y = Math.round(Y(p)) + 0.5;
+    ctx.strokeStyle = C.grid; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(x1, y); ctx.stroke();
+    ticks.push([p, y]);   // the label is drawn after the price tags, so it can step aside for them
+  }
+  // time axis on round clock times, in the screenshot's own timezone so times in the coach's notes line up
+  ctx.textAlign = "center"; ctx.textBaseline = "alphabetic";
+  const stepMs = ([1, 2, 5, 10, 15, 30, 60, 120, 240, 480].find(m => m * slot >= 84) || 720) * 60000;
+  const offMs = (trade.off || 0) * 3600e3;
+  for (let i = first; i < last; i++) {
+    if ((bars[i].t + offMs) % stepMs !== 0 || X(i) < x0 + 20 || X(i) > x1 - 20) continue;
+    ctx.fillStyle = C.axis; ctx.fillText(clock(bars[i].t, trade.off), X(i), H - 8);
+  }
+
+  ctx.save();
+  ctx.beginPath(); ctx.rect(x0, 0, x1 - x0, H); ctx.clip();
+
+  // candles
+  const bw = Math.max(1, slot * 0.64);
+  for (let i = first; i < last; i++) {
+    const k = bar(i), col = k.c >= k.o ? C.up : C.down;
+    ctx.strokeStyle = ctx.fillStyle = col; ctx.lineWidth = Math.max(1, Math.min(1.5, slot * 0.3));
+    ctx.beginPath(); ctx.moveTo(X(i), Y(k.h)); ctx.lineTo(X(i), Y(k.l)); ctx.stroke();
+    const top = Y(Math.max(k.o, k.c)), bot = Y(Math.min(k.o, k.c));
+    ctx.fillRect(X(i) - bw / 2, top, bw, Math.max(1, bot - top));
+  }
+  // moving averages (30 and 120 SMMA on closes), stopping before the entry candle until the answer is in
+  const curve = (key, col, toY, upto) => {
+    ctx.strokeStyle = col; ctx.lineWidth = 1.6; ctx.beginPath();
+    let on = false;
+    for (let i = first; i < upto; i++) {
+      const val = bars[i][key];
+      if (val == null) { on = false; continue; }
+      if (on) ctx.lineTo(X(i), toY(val)); else ctx.moveTo(X(i), toY(val));
+      on = true;
+    }
+    ctx.stroke();
+  };
+  const maEnd = pre ? Math.min(last, d.entryIdx) : last;
+  curve("s", C.ma120, Y, maEnd); curve("a", C.ma30, Y, maEnd);
+
+  // volume in USD, coloured like its candle, with its 60-candle average; scaled to what's in view
+  let vMax = 0;
+  for (let i = first; i < last; i++) vMax = Math.max(vMax, bars[i].v || 0);
+  if (vMax > 0) {
+    ctx.strokeStyle = C.grid; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(x0, vTop - 6.5); ctx.lineTo(x1, vTop - 6.5); ctx.stroke();
+    for (let i = first; i < last; i++) {
+      const k = bar(i), h = (bars[i].v || 0) / vMax * vH;
+      ctx.fillStyle = k.c >= k.o ? "rgba(38, 166, 154, 0.5)" : "rgba(239, 83, 80, 0.5)";
+      ctx.fillRect(X(i) - bw / 2, yBot - h, bw, Math.max(h, 0.5));
+    }
+    curve("va", C.volavg, val => yBot - Math.min(1, val / vMax) * vH, maEnd);
+  }
+
+  // the plan: the entry price as a line through the last stretch before the entry, stop and target from the entry on
+  const ex = X(d.entryIdx), tags = [];
+  const hline = (p, col, name, dashed, from) => {
+    if (p == null || isNaN(p)) return;
+    const y = Math.round(Y(p)) + 0.5;
+    if (y < yTop - 2 || y > pBot + 2) return;
+    ctx.strokeStyle = col; ctx.lineWidth = 1.4; ctx.setLineDash(dashed ? [6, 5] : []);
+    ctx.beginPath(); ctx.moveTo(Math.max(from, x0), y); ctx.lineTo(x1, y); ctx.stroke(); ctx.setLineDash([]);
+    tags.push([name + " " + fmt(p), y, col]);
+  };
+  hline(trade.target, C.target, "TP", true, ex);
+  hline(trade.stop, C.stop, "SL", true, ex);
+  hline(trade.entry, C.entry, "Entry", false, X(d.entryIdx - ENTRY_LEAD));
+  const ring = (x, y, col) => { ctx.strokeStyle = col; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.arc(x, y, 6, 0, Math.PI * 2); ctx.stroke(); };
+  if (v.shown > d.entryIdx) ring(ex, Y(trade.entry), "#f5b800");
+  if (!pre && d.exitIdx != null && v.shown > d.exitIdx) {
+    const px = trade.out === "target" ? trade.target : trade.out === "stop" ? trade.stop : trade.xp;
+    if (px != null) ring(X(d.exitIdx), Y(px), trade.out === "target" ? "#1e9e6a" : trade.out === "stop" ? "#d63a2f" : C.axis);
+  }
+  if (pre) {
+    ctx.fillStyle = C.marker; ctx.textAlign = "left"; ctx.textBaseline = "top";
+    const room = x1 - (ex + slot / 2 + 8);   // the empty space after the entry
+    ctx.fillText(ctx.measureText("Entered here").width < room ? "Entered here" : "Entry", ex + slot / 2 + 8, yTop + 2);
+    ctx.strokeStyle = C.marker; ctx.setLineDash([4, 4]); ctx.lineWidth = 1.2;
+    ctx.beginPath(); ctx.moveTo(ex + slot / 2 + 2, yTop); ctx.lineTo(ex + slot / 2 + 2, yBot); ctx.stroke(); ctx.setLineDash([]);
+  }
+  ctx.restore();
+
+  // price tags on the axis, nudged apart when two prices sit close together
+  tags.sort((a, z) => a[1] - z[1]);
+  let prev = -Infinity;
+  for (const tg of tags) { tg[1] = Math.max(tg[1], prev + 19); prev = tg[1]; }
+  ctx.font = "11px 'PT Sans', sans-serif";
+  for (const [text, y0, col] of tags) {
+    const y = Math.min(y0, pBot + 8), tw = Math.min(axisW - 4, ctx.measureText(text).width + 10);
+    ctx.fillStyle = col; ctx.fillRect(x1 + 2, y - 9, tw, 18);
+    ctx.fillStyle = "#fff"; ctx.textAlign = "left"; ctx.textBaseline = "middle"; ctx.fillText(text, x1 + 7, y, tw - 8);
+  }
+  ctx.font = "12px 'PT Sans', sans-serif"; ctx.textAlign = "left"; ctx.textBaseline = "middle"; ctx.fillStyle = C.axis;
+  for (const [p, y] of ticks) if (!tags.some(tg => Math.abs(Math.min(tg[1], pBot + 8) - y) < 16)) ctx.fillText(fmt(p), x1 + 6, y);
+  // legends: the two moving averages on the price pane, the volume scale and its average on the volume pane
+  const short = n => (n >= 1e9 ? (n / 1e9).toFixed(1) + "B" : n >= 1e6 ? (n / 1e6).toFixed(1) + "M" : n >= 1e3 ? (n / 1e3).toFixed(0) + "K" : n.toFixed(0));
+  ctx.textAlign = "left"; ctx.textBaseline = "top";
+  let lx = x0 + (cv.id === "chart" ? 132 : 6);
+  for (const [text, col] of [["30 SMMA", C.ma30], ["120 SMMA", C.ma120]]) {
+    ctx.fillStyle = col; ctx.fillText(text, lx, yTop + 2); lx += ctx.measureText(text).width + 12;
+  }
+  if (vMax > 0) {
+    ctx.fillStyle = C.axis; ctx.fillText("Vol $" + short(vMax), x1 + 6, vTop - 2);
+    ctx.fillStyle = C.volavg; ctx.fillText("Volume average (60)", x0 + 6, vTop - 4);
+  }
+}
+
+// play the trade candle by candle, rescaling the price axis to include everything that follows
+function playReveal(v, done) {
+  const { d, trade } = v;
+  cancelAnimationFrame(v.anim);
+  v.phase = "reveal"; v.shown = d.entryIdx + 1; v.zoom = null; $("z-reset").hidden = true;
+  const [lo0, hi0, n0] = [v.yLo, v.yHi, v.nView];
+  const [lo1, hi1] = rangeOf(d.bars, [trade.entry, trade.stop, trade.target]);
+  const n1 = d.bars.length, total = n1 - d.entryIdx, rate = Math.max(14, total / 6);   // about 6 s per trade
+  const t0 = performance.now();
+  const tick = now => {
+    const s = (now - t0) / 1000, e = Math.min(1, s / 0.45), ease = 1 - Math.pow(1 - e, 3);
+    v.yLo = lo0 + (lo1 - lo0) * ease; v.yHi = hi0 + (hi1 - hi0) * ease; v.nView = n0 + (n1 - n0) * ease;
+    v.shown = Math.min(n1, d.entryIdx + 1 + Math.floor(s * rate));
+    draw(v);
+    if (v.shown < n1 || e < 1) v.anim = requestAnimationFrame(tick);
+    else { v.phase = "done"; if (done) done(); }
+  };
+  v.anim = requestAnimationFrame(tick);
+}
+
+// ---------- session ----------
+let kind = null, S = null, view = null, cur = 0, picked = null, answers = [null, null, null];
+const key = k => STORE + k;
+function readStore(k) { try { return JSON.parse(localStorage.getItem(key(k)) || "null"); } catch (e) { return null; } }
+function save() { try { localStorage.setItem(key(kind), JSON.stringify(S)); } catch (e) {} }
+const tradeOf = n => SETS[kind].trades.find(t => t.n === n);
+const doneCount = s => s.order.filter(n => s.answers[n]).length;
+
+function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function newSession(k, count, name) {
+  const old = readStore(k), seen = new Set((old && old.seen) || []);
+  if (old) for (const n of old.order) if (old.answers[n]) seen.add(n);
+  const all = usable(k).map(t => t.n);
+  // charts not graded before come first; once every chart has been seen the pool starts over
+  let fresh = shuffle(all.filter(n => !seen.has(n)));
+  const want = count === "all" ? all.length : Math.min(all.length, +count);
+  if (fresh.length < want) { fresh = fresh.concat(shuffle(all.filter(n => seen.has(n)))); seen.clear(); }
+  return { name, order: fresh.slice(0, want), answers: {}, notes: {}, current: 0, seen: [...seen], started: new Date().toISOString() };
+}
+
+// ---------- start screen ----------
+function showOnly(id) {
+  for (const s of ["start", "quiz", "summary", "review"]) $(s).hidden = s !== id;
+  const inSet = id === "quiz" || id === "summary";
+  for (const x of ["s-progress", "s-score", "to-summary", "to-start"]) $(x).hidden = !inSet;
+  if (view && id !== "quiz") cancelAnimationFrame(view.anim);
+  if (id !== "quiz") window.scrollTo(0, 0);
+}
+function renderStart() {
+  showOnly("start");
+  $("who").textContent = "";
+  $("prog").style.width = "0";
+  $("picks").innerHTML = Object.keys(EX).map(k => {
+    const ex = EX[k], n = usable(k).length;
+    return `<button class="pick${picked === k ? " on" : ""}" data-k="${k}" ${n ? "" : "disabled"}>
+      <span class="t">${ex.name} exercise</span>
+      <span class="c">${n ? n + " real student trades" : "Not available yet"}</span>
+      <ol>${ex.qs.map((q, i) => `<li>${esc(q.short)}: <b>${ex.want[i]}</b></li>`).join("")}</ol></button>`;
+  }).join("");
+  for (const b of $("picks").querySelectorAll(".pick")) b.onclick = () => { picked = b.dataset.k; renderStart(); };
+  const ex = picked && EX[picked];
+  $("guide").hidden = !ex; $("b-start").disabled = !ex;
+  $("resume").hidden = true;
+  if (!ex) { $("start-note").textContent = "Choose the exercise you want to practise."; return; }
+  $("guide").innerHTML = `<h3>What makes a high quality ${esc(ex.name.toLowerCase())} setup</h3>
+    <ol>${ex.qs.map((q, i) => `<li><b>${esc(q.short)}</b>: <span class="want">${ex.want[i]}</span><br>${esc(q.guide)}</li>`).join("")}</ol>
+    <p class="legend" style="margin:10px 0 0">You mark each variable ✅ clearly good for ${ex.good}, ❌ clearly bad for ${ex.good}, or ⚠️ in the middle: unclear and tricky to interpret.</p>`;
+  const old = readStore(picked);
+  const left = old ? old.order.length - doneCount(old) : 0;
+  if (old && left > 0 && old.order.every(n => SETS[picked].trades.some(t => t.n === n && !t.hold))) {
+    $("resume").hidden = false;
+    $("resume").innerHTML = `<span>You have a ${esc(ex.name.toLowerCase())} set in progress: <b>${doneCount(old)} of ${old.order.length}</b> charts graded.</span><button class="primary" id="b-resume">Continue it</button>`;
+    $("b-resume").onclick = () => begin(picked, old);
+    if (!$("name").value && old.name) $("name").value = old.name;
+  }
+  const max = usable(picked).length;
+  for (const o of $("count").options) o.disabled = o.value !== "all" && +o.value > max;
+  $("start-note").textContent = "Charts are drawn at random, starting with the ones you haven't graded yet.";
+}
+function begin(k, session) {
+  kind = k; S = session; save();
+  $("who").textContent = (S.name ? S.name + " · " : "") + EX[kind].name;
+  stats();
+  const open = S.order.findIndex(n => !S.answers[n]);
+  if (open < 0) summary(); else show(open);
+}
+
+// ---------- one chart ----------
+function renderQuestions() {
+  const ex = EX[kind];
+  $("qrows").innerHTML = ex.qs.map((q, i) => `<div class="qrow">
+      <div><div class="qt">${i + 1}. ${esc(q.q)}</div><div class="qh">${esc(q.hint)}</div></div>
+      <div class="opts">${ORDER.map(m => `<button class="opt ${m}${answers[i] === m ? " on" : ""}" data-i="${i}" data-m="${m}">${MARK[m].icon} ${MARK[m].word}</button>`).join("")}</div>
+    </div>`).join("");
+  for (const b of $("qrows").querySelectorAll(".opt")) b.onclick = () => pick(+b.dataset.i, b.dataset.m);
+  const ready = answers.every(Boolean);
+  $("b-submit").disabled = !ready || !view;
+  if (ready) {
+    const sc = scoreOf(answers), bd = band(sc);
+    $("read").innerHTML = `Your read: <b>${sc}/6 · ${bd.level}</b> → ${bd.action}`;
+  } else $("read").textContent = "Grade all three, then lock it in.";
+}
+function pick(i, m) {
+  if (!view || view.phase !== "pre" || S.answers[S.order[cur]]) return;
+  answers[i] = m; renderQuestions();
+}
+async function show(i) {
+  showOnly("quiz");
+  if (view) cancelAnimationFrame(view.anim);
+  cur = i; S.current = i; save();
+  const n = S.order[i], t = tradeOf(n), ex = EX[kind], ans = S.answers[n];
+  $("m-n").textContent = `Chart ${i + 1} of ${S.order.length}`;
+  $("m-coin").textContent = `${t.coin}/${t.quote}`;
+  $("m-side").textContent = t.side === "long" ? "Long" : "Short"; $("m-side").className = "pill " + t.side;
+  $("m-kind").textContent = `${ex.tag} ${t.side === "long" ? "Long" : "Short"}`;
+  $("m-when").textContent = `${clock(t.t, t.off, true)} ${utcName(t.off)}`;
+  $("ask-lead").textContent = `This is a ${ex.name.toLowerCase()} ${t.side}. Grade the three variables from what the chart shows at the entry.`;
+  $("ask-legend").textContent = `✅ clearly good for ${ex.good} · ⚠️ in the middle: unclear and tricky to interpret · ❌ clearly bad for ${ex.good}`;
+  $("note").value = S.notes[n] || "";
+  $("b-prev").disabled = i === 0; $("b-skip").hidden = true;
+  $("result").hidden = true; $("ask").hidden = !!ans;
+  $("overlay").hidden = false; $("overlay").textContent = "Loading candles…"; $("src").textContent = "";
+  $("z-reset").hidden = true;
+  view = null; answers = [null, null, null];
+  const cv = $("chart"); cv.getContext("2d").clearRect(0, 0, cv.width, cv.height);
+  renderQuestions();
+
+  const d = await candlesFor(kind, n);
+  if (S.order[cur] !== n || $("quiz").hidden) return;
+  if (i + 1 < S.order.length) candlesFor(kind, S.order[i + 1]);   // get the next one ready
+  if (d.error) { $("overlay").textContent = d.error + "."; $("b-skip").hidden = !!ans; return; }
+  $("overlay").hidden = true;
+  view = makeView(cv, t, d, "pre");
+  $("src").textContent = `${t.exchange} 1-minute candles · times in ${utcName(t.off)}, as on the coach's screenshot · the last candle is the entry candle at the moment of the fill`;
+  if (ans && !ans.skipped) { showResult(false); playReveal(view, () => outcomeLine(t)); }
+  else { draw(view); renderQuestions(); }
+}
+function submit() {
+  const n = S.order[cur];
+  if (!view || view.phase !== "pre" || S.answers[n] || !answers.every(Boolean)) return;
+  S.answers[n] = { a: answers.slice(), at: new Date().toISOString() };
+  save(); stats();
+  $("ask").hidden = true;
+  showResult(true);
+  playReveal(view, () => outcomeLine(tradeOf(n)));
+}
+const verdict = (mine, coach) => {
+  const gap = Math.abs(ORDER.indexOf(mine) - ORDER.indexOf(coach));
+  return gap === 0 ? ["ok", "✓ Match"] : gap === 1 ? ["near", "One step off"] : ["off", "Opposite"];
+};
+function showResult(scroll) {
+  const n = S.order[cur], t = tradeOf(n), ex = EX[kind], mine = S.answers[n].a;
+  const right = mine.filter((m, i) => m === t.key[i]).length;
+  $("r-big").textContent = right === 3 ? "All three match the coach" : `${right} of 3 match the coach`;
+  $("r-marks").innerHTML = "<tr><th>Variable</th><th>You</th><th>Coach</th><th></th></tr>" + ex.qs.map((q, i) => {
+    const [cls, word] = verdict(mine[i], t.key[i]);
+    return `<tr><td><b>${esc(q.short)}</b><br><span class="said">${esc(q.q)}</span></td><td>${chip(mine[i])}</td>
+      <td>${chip(t.key[i])}${t.said[i] ? `<br><span class="said">${esc(t.said[i])}</span>` : ""}</td><td class="v ${cls}">${word}</td></tr>`;
+  }).join("");
+  const ms = scoreOf(mine), cs = scoreOf(t.key), mb = band(ms), cb = band(cs);
+  $("r-scores").innerHTML = [["Your read", ms, mb], ["Coach's read", cs, cb]].map(([k, s, b]) =>
+    `<div class="tile"><div class="k">${k}</div><div class="v">${s}/6 · ${b.level}</div><div class="d">${b.action}</div></div>`).join("");
+  $("r-outcome").textContent = "Playing the trade…";
+  $("r-coach").hidden = !t.notes.length;
+  $("r-coach").innerHTML = t.notes.length ? `<b>Coach's note</b><ul>${t.notes.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : "";
+  const imgs = [`shots/${kind}/${pad3(n)}.webp`];
+  for (let k = 1; k <= (t.extras || 0); k++) imgs.push(`shots/${kind}/${pad3(n)}-${k}.webp`);
+  $("r-shot").innerHTML = `<b>The coach's marked-up screenshot</b>` +
+    imgs.map(src => `<a href="${src}" target="_blank" rel="noopener"><img src="${src}" loading="lazy" alt="Marked-up chart of this trade"></a>`).join("") +
+    (t.link ? `<a href="${encodeURI(t.link)}" target="_blank" rel="noopener">Open the original on TradingView</a>` : "");
+  $("b-next").firstChild.textContent = S.order.some(x => !S.answers[x]) ? "Next chart" : "See your results";
+  $("result").hidden = false;
+  if (scroll) $("quiz").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+function outcomeText(t) {
+  return t.out === "target" ? ["target", "Target hit", fmtR(t.r)] : t.out === "stop" ? ["stop", "Stopped out", fmtR(t.r)]
+    : t.out === "manual" ? ["", "Closed by hand between stop and target", fmtR(t.r)] : ["", "Still open at the end of the chart", ""];
+}
+function outcomeLine(t) {
+  const [cls, word, r] = outcomeText(t);
+  $("r-outcome").innerHTML = `How the trade went: <b class="${cls}">${word}${r ? " (" + r + ")" : ""}</b>. A high quality setup can still lose: grade the setup, not the result.`;
+}
+function next() {
+  const open = S.order.findIndex((n, i) => i > cur && !S.answers[n]);
+  const any = S.order.findIndex(n => !S.answers[n]);
+  if (open > -1) show(open); else if (any > -1) show(any); else summary();
+}
+function stats() {
+  const done = S.order.filter(n => S.answers[n] && !S.answers[n].skipped);
+  let right = 0;
+  for (const n of done) { const t = tradeOf(n); right += S.answers[n].a.filter((m, i) => m === t.key[i]).length; }
+  $("s-done").textContent = doneCount(S); $("s-total").textContent = S.order.length;
+  $("s-right").textContent = right; $("s-asked").textContent = done.length * 3;
+  $("prog").style.width = (doneCount(S) / S.order.length * 100) + "%";
+}
+
+// ---------- summary + export ----------
+function rows() {
+  const ex = EX[kind];
+  return S.order.map((n, i) => {
+    const t = tradeOf(n), ans = S.answers[n], a = ans && !ans.skipped ? ans.a : null;
+    const r = { chart: i + 1, trade: n, exercise: ex.name, coin: t.coin, side: t.side, entry_time_utc: new Date(t.t).toISOString().slice(0, 16).replace("T", " ") };
+    ex.qs.forEach((q, j) => {
+      const k = q.short.toLowerCase().replace(/[^a-z]+/g, "_");
+      r[k + "_you"] = a ? a[j] : ""; r[k + "_coach"] = t.key[j];
+    });
+    r.matches = a ? a.filter((m, j) => m === t.key[j]).length : "";
+    r.score_you = a ? scoreOf(a) : ""; r.score_coach = scoreOf(t.key);
+    r.action_you = a ? band(scoreOf(a)).action : ""; r.action_coach = band(scoreOf(t.key)).action;
+    r.trade_result = outcomeText(t)[1]; r.trade_r = t.r == null ? "" : t.r;
+    r.graded_at = ans ? ans.at : ""; r.notes = S.notes[n] || ""; r.tradingview = t.link || "";
+    return r;
+  });
+}
+function summary() {
+  showOnly("summary");
+  const ex = EX[kind], graded = S.order.filter(n => S.answers[n] && !S.answers[n].skipped);
+  const pct = (a, b) => (b ? Math.round(a / b * 100) + "%" : "-");
+  let right = 0, all3 = 0, sameBand = 0;
+  const per = ex.qs.map(() => ({ ok: 0, near: 0, off: 0, tooGood: 0, tooHard: 0 }));
+  for (const n of graded) {
+    const t = tradeOf(n), a = S.answers[n].a;
+    const m = a.filter((x, i) => x === t.key[i]).length;
+    right += m; if (m === 3) all3++;
+    if (band(scoreOf(a)).level === band(scoreOf(t.key)).level) sameBand++;
+    a.forEach((x, i) => {
+      per[i][verdict(x, t.key[i])[0]]++;
+      const gap = MARK[x].pts - MARK[t.key[i]].pts;
+      if (gap > 0) per[i].tooGood++; else if (gap < 0) per[i].tooHard++;
+    });
+  }
+  $("sum-sub").textContent = `${S.name ? S.name + " · " : ""}${ex.name} exercise · ${graded.length} of ${S.order.length} charts graded`;
+  $("tiles").innerHTML = [
+    ["Variables matching the coach", `${right}/${graded.length * 3}`, pct(right, graded.length * 3)],
+    ["Charts with all three right", `${all3}/${graded.length}`, pct(all3, graded.length)],
+    ["Same trade action as the coach", `${sameBand}/${graded.length}`, "Your 0–6 score landed in the coach's band"],
+  ].map(([k, v, d]) => `<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="d">${d}</div></div>`).join("");
+  $("by-var").innerHTML = graded.length ? `<h3>By variable</h3><table class="t"><tr><th>Variable</th><th class="num">Match</th><th class="num">One step off</th><th class="num">Opposite</th><th class="num">Accuracy</th><th>Your lean</th></tr>` +
+    ex.qs.map((q, i) => {
+      const p = per[i], lean = p.tooGood > p.tooHard + 1 ? `You grade it better for ${ex.good} than the coach (${p.tooGood}×)`
+        : p.tooHard > p.tooGood + 1 ? `You grade it worse for ${ex.good} than the coach (${p.tooHard}×)` : "No clear lean";
+      return `<tr><td><b>${esc(q.short)}</b></td><td class="num">${p.ok}</td><td class="num">${p.near}</td><td class="num">${p.off}</td><td class="num">${pct(p.ok, graded.length)}</td><td>${lean}</td></tr>`;
+    }).join("") + "</table>" : "";
+  $("sum-table").innerHTML = `<tr><th>#</th><th>Coin</th><th>Side</th>${ex.qs.map(q => `<th>${esc(q.short)}<br>you / coach</th>`).join("")}<th class="num">Score<br>you / coach</th><th>Trade</th><th>Your notes</th></tr>` +
+    S.order.map((n, i) => {
+      const t = tradeOf(n), ans = S.answers[n], a = ans && !ans.skipped ? ans.a : null;
+      const cells = ex.qs.map((q, j) => `<td>${a ? MARK[a[j]].icon + " / " + MARK[t.key[j]].icon + (a[j] === t.key[j] ? "" : " ·") : "-"}</td>`).join("");
+      const [, word, r] = outcomeText(t);
+      return `<tr><td>${i + 1}</td><td>${esc(t.coin)}</td><td>${t.side}</td>${cells}<td class="num">${a ? scoreOf(a) + " / " + scoreOf(t.key) : "-"}</td>` +
+        `<td>${a ? word + (r ? " " + r : "") : "hidden"}</td><td class="note">${esc(S.notes[n] || "")}</td></tr>`;
+    }).join("");
+}
+function download(name, text, type) {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+const fileBase = () => `zct-setup-quiz-${kind}-` + (S.name || "student").replace(/[^\w-]+/g, "-").toLowerCase();
+$("x-json").onclick = () => download(fileBase() + ".json", JSON.stringify({ student: S.name, exercise: EX[kind].name, exported_at: new Date().toISOString(), charts: rows() }, null, 2), "application/json");
+$("x-csv").onclick = () => {
+  const rs = rows(), cols = Object.keys(rs[0]);
+  const cell = x => (x == null ? "" : /[",\n]/.test(String(x)) ? '"' + String(x).replace(/"/g, '""') + '"' : String(x));
+  download(fileBase() + ".csv", [cols.join(",")].concat(rs.map(r => cols.map(c => cell(r[c])).join(","))).join("\n"), "text/csv");
+};
+
+// ---------- coach review ----------
+async function review(k) {
+  showOnly("review");
+  const set = SETS[k];
+  $("rv-title").textContent = `Coach review: ${EX[k].name.toLowerCase()} trades`;
+  if (!set) { $("rv-list").innerHTML = `<div class="card">No data for this exercise yet.</div>`; return; }
+  const io = new IntersectionObserver(entries => {
+    for (const e of entries) if (e.isIntersecting) { io.unobserve(e.target); fill(e.target); }
+  }, { rootMargin: "600px" });
+  async function fill(card) {
+    const t = set.trades.find(x => x.n === +card.dataset.n), d = await candlesFor(k, t.n);
+    if (d.error) { card.querySelector(".charts").textContent = d.error; return; }
+    for (const [sel, phase] of [[".pre", "pre"], [".done", "done"]]) draw(makeView(card.querySelector(sel), t, d, phase));
+  }
+  const render = () => {
+    const f = $("rv-filter").value;
+    const list = set.trades.filter(t => f === "all" || (f === "hold" ? t.hold : t.hold || t.flags.length));
+    $("rv-count").textContent = `${list.length} of ${set.trades.length} trades · ${set.trades.filter(t => t.hold).length} held back from the quiz`;
+    $("rv-list").innerHTML = list.map(t => `<div class="card" data-n="${t.n}">
+      <div><b>#${t.n} · ${esc(t.coin)}/${t.quote} · ${EX[k].tag} ${t.side}</b> · ${clock(t.t, t.off, true)} ${utcName(t.off)} · ${t.exchange}
+        · key ${t.key.map(m => MARK[m].icon).join(" ")} · ${outcomeText(t)[1]} ${outcomeText(t)[2]}
+        ${t.hold ? `<div class="flag hold">Held back from the quiz</div>` : ""}${t.flags.map(x => `<div class="flag">${esc(x)}</div>`).join("")}</div>
+      <div class="two">
+        <div><div class="cap">Coach's screenshot</div><a href="shots/${k}/${pad3(t.n)}.webp" target="_blank"><img loading="lazy" src="shots/${k}/${pad3(t.n)}.webp" alt=""></a></div>
+        <div class="charts"><div class="cap">What the student sees</div><canvas class="chart pre"></canvas><div class="cap" style="margin-top:8px">Played out</div><canvas class="chart done"></canvas></div>
+      </div></div>`).join("");
+    for (const c of $("rv-list").children) io.observe(c);
+  };
+  $("rv-filter").onchange = render;
+  render();
+}
+
+// ---------- wiring ----------
+$("b-start").onclick = () => picked && begin(picked, newSession(picked, $("count").value, $("name").value.trim()));
+$("b-submit").onclick = submit;
+$("b-next").onclick = next;
+$("b-prev").onclick = () => cur > 0 && show(cur - 1);
+$("b-replay").onclick = () => view && playReveal(view, () => outcomeLine(tradeOf(S.order[cur])));
+$("b-skip").onclick = () => { S.answers[S.order[cur]] = { skipped: true, at: new Date().toISOString() }; save(); stats(); next(); };
+$("to-summary").onclick = () => S && summary();
+$("to-start").onclick = renderStart;
+$("new-set").onclick = () => { picked = kind; renderStart(); };
+$("back-quiz").onclick = () => show(cur);
+$("note").addEventListener("input", e => { if (!S) return; S.notes[S.order[cur]] = e.target.value; save(); });
+document.addEventListener("keydown", e => {
+  if ($("quiz").hidden || /INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) return;
+  const i = answers.findIndex(a => !a);
+  if (["1", "2", "3"].includes(e.key) && i > -1 && !$("ask").hidden) pick(i, ORDER[+e.key - 1]);
+  else if (e.key === "Enter" && !$("result").hidden) { e.preventDefault(); next(); }
+  else if (e.key === "Enter" && !$("ask").hidden) { e.preventDefault(); submit(); }
+});
+window.addEventListener("resize", () => { if (!$("quiz").hidden) draw(view); });
+
+// zoom: buttons zoom toward the latest candles, the mouse wheel toward the pointer; drag to pan; double-click resets
+const cv0 = $("chart");
+const plotAt = clientX => {
+  const r = cv0.getBoundingClientRect(), g = view && view.geom;
+  return g ? Math.min(1, Math.max(0, (clientX - r.left - g.x0) / (g.x1 - g.x0))) : 1;
+};
+$("z-in").onclick = () => zoomBy(view, 0.6, 1);
+$("z-out").onclick = () => zoomBy(view, 1 / 0.6, 1);
+$("z-reset").onclick = () => view && setZoom(view, 0, Infinity);
+cv0.addEventListener("wheel", e => { if (!view) return; e.preventDefault(); zoomBy(view, e.deltaY < 0 ? 0.8 : 1.25, plotAt(e.clientX)); }, { passive: false });
+cv0.addEventListener("dblclick", () => view && setZoom(view, 0, Infinity));
+let drag = null;
+cv0.addEventListener("pointerdown", e => {
+  if (!view || !view.zoom || !view.geom) return;
+  drag = { x: e.clientX, lo: view.zoom.lo, hi: view.zoom.hi };
+  cv0.setPointerCapture(e.pointerId); cv0.classList.add("dragging");
+});
+cv0.addEventListener("pointermove", e => {
+  if (!drag) return;
+  const g = view.geom, perPx = (drag.hi - drag.lo) / (g.x1 - g.x0), shift = (drag.x - e.clientX) * perPx;
+  setZoom(view, drag.lo + shift, drag.hi + shift);
+});
+const endDrag = () => { drag = null; cv0.classList.remove("dragging"); };
+cv0.addEventListener("pointerup", endDrag);
+cv0.addEventListener("pointercancel", endDrag);
+if (document.fonts) document.fonts.ready.then(() => draw(view));
+
+// load both lists, then open the start screen (or the coach review)
+Promise.all(Object.keys(EX).map(k => loadScript(`data/${k}.js`).catch(() => null))).then(() => {
+  const rv = new URLSearchParams(location.search).get("review");
+  if (rv && EX[rv]) review(rv); else renderStart();
+});
+</script>
+</body>
+</html>

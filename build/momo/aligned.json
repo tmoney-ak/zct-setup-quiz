@@ -1,0 +1,2857 @@
+[
+ {
+  "n": 1,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "MASKUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -3,
+  "outcome": "target",
+  "entry_ms": 1743534600000,
+  "entry": 1.6689,
+  "stop": 1.7496,
+  "target": 1.5882,
+  "side": "short",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 516
+ },
+ {
+  "n": 2,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "ENAUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -2,
+  "outcome": "target",
+  "entry_ms": 1722610440000,
+  "entry": 0.3654,
+  "stop": 0.3704,
+  "target": 0.3592,
+  "side": "short",
+  "tf": 1,
+  "r": 1.24,
+  "exit_price": null,
+  "candles": 513
+ },
+ {
+  "n": 3,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "MEWUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1722962880000,
+  "entry": 0.006004,
+  "stop": 0.00582,
+  "target": 0.00619,
+  "side": "long",
+  "tf": 1,
+  "r": -0.64,
+  "exit_price": 0.005887,
+  "candles": 524
+ },
+ {
+  "n": 4,
+  "flags": [
+   "screenshot is from MEXC: prices can differ slightly",
+   "prices are x1000: the futures contract is 1000FLOKIUSDT",
+   "candles from Binance (screenshot: MEXC)"
+  ],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "1000FLOKIUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1723024620000,
+  "entry": 0.13431,
+  "stop": 0.13205,
+  "target": 0.13656,
+  "side": "long",
+  "tf": 1,
+  "r": 0.21,
+  "exit_price": 0.13479,
+  "candles": 521
+ },
+ {
+  "n": 5,
+  "flags": [],
+  "hyps": [
+   [
+    0.002,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "PORTALUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.002,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "stop",
+  "entry_ms": 1724051040000,
+  "entry": 0.2908,
+  "stop": 0.2854,
+  "target": 0.2962,
+  "side": "long",
+  "tf": 1,
+  "r": -1.0,
+  "exit_price": null,
+  "candles": 503
+ },
+ {
+  "n": 6,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "RSRUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": 1,
+  "outcome": "stop",
+  "entry_ms": 1724136720000,
+  "entry": 0.005783,
+  "stop": 0.005657,
+  "target": 0.005924,
+  "side": "long",
+  "tf": 1,
+  "r": -1.0,
+  "exit_price": null,
+  "candles": 522
+ },
+ {
+  "n": 7,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "TRXUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1724161560000,
+  "entry": 0.15237,
+  "stop": 0.15056,
+  "target": 0.15452,
+  "side": "long",
+  "tf": 1,
+  "r": 1.19,
+  "exit_price": null,
+  "candles": 514
+ },
+ {
+  "n": 8,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "AUCTIONUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1724327700000,
+  "entry": 18.622,
+  "stop": 18.921,
+  "target": 18.326,
+  "side": "short",
+  "tf": 1,
+  "r": 0.99,
+  "exit_price": null,
+  "candles": 511
+ },
+ {
+  "n": 9,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "AAVEUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -2,
+  "outcome": "manual",
+  "entry_ms": 1724837940000,
+  "entry": 126.49,
+  "stop": 124.17,
+  "target": 129.05,
+  "side": "long",
+  "tf": 1,
+  "r": 0.11,
+  "exit_price": 126.75,
+  "candles": 530
+ },
+ {
+  "n": 10,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "ENAUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -4,
+  "outcome": "target",
+  "entry_ms": 1724857920000,
+  "entry": 0.2631,
+  "stop": 0.2683,
+  "target": 0.2579,
+  "side": "short",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 535
+ },
+ {
+  "n": 11,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "1000TURBOUSDT",
+  "exchange": "BYBIT",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -2,
+  "outcome": "target",
+  "entry_ms": 1745416200000,
+  "entry": 5.0,
+  "stop": 4.67,
+  "target": 5.33,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 517
+ },
+ {
+  "n": 12,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "ENAUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1726654380000,
+  "entry": 0.2226,
+  "stop": 0.226,
+  "target": 0.2192,
+  "side": "short",
+  "tf": 1,
+  "r": -0.32,
+  "exit_price": 0.2237,
+  "candles": 517
+ },
+ {
+  "n": 13,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "AAVEUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1727871180000,
+  "entry": 143.03,
+  "stop": 145.5,
+  "target": 140.29,
+  "side": "short",
+  "tf": 1,
+  "r": 1.11,
+  "exit_price": null,
+  "candles": 543
+ },
+ {
+  "n": 14,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "SAGAUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -2,
+  "outcome": "target",
+  "entry_ms": 1727893440000,
+  "entry": 2.3551,
+  "stop": 2.4064,
+  "target": 2.3039,
+  "side": "short",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 528
+ },
+ {
+  "n": 15,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    -6.0,
+    0
+   ]
+  ],
+  "symbol": "UXLINKUSDT",
+  "exchange": "BYBIT",
+  "fit": 0.0,
+  "utc_offset": -6.0,
+  "day_shift": 0,
+  "entry_shift_min": 1,
+  "outcome": "manual",
+  "entry_ms": 1735150920000,
+  "entry": 1.8128,
+  "stop": 1.9781,
+  "target": 1.6433,
+  "side": "short",
+  "tf": 1,
+  "r": 0.69,
+  "exit_price": 1.6989,
+  "candles": 592
+ },
+ {
+  "n": 16,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "POPCATUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -2,
+  "outcome": "manual",
+  "entry_ms": 1728371760000,
+  "entry": 1.183,
+  "stop": 1.2137,
+  "target": 1.1517,
+  "side": "short",
+  "tf": 1,
+  "r": -0.06,
+  "exit_price": 1.1848,
+  "candles": 520
+ },
+ {
+  "n": 17,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "ETHFIUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "manual",
+  "entry_ms": 1729062780000,
+  "entry": 1.6607,
+  "stop": 1.6879,
+  "target": 1.6329,
+  "side": "short",
+  "tf": 1,
+  "r": 0.03,
+  "exit_price": 1.66,
+  "candles": 548
+ },
+ {
+  "n": 18,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "ENAUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -3,
+  "outcome": "manual",
+  "entry_ms": 1729089420000,
+  "entry": 0.3866,
+  "stop": 0.3964,
+  "target": 0.3768,
+  "side": "short",
+  "tf": 1,
+  "r": -0.34,
+  "exit_price": 0.3899,
+  "candles": 518
+ },
+ {
+  "n": 19,
+  "flags": [],
+  "hyps": [
+   [
+    0.005,
+    -6.0,
+    0
+   ]
+  ],
+  "symbol": "WIFUSDT",
+  "exchange": "BYBIT",
+  "fit": 0.005,
+  "utc_offset": -6.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1738099020000,
+  "entry": 1.0169,
+  "stop": 1.0472,
+  "target": 0.985,
+  "side": "short",
+  "tf": 1,
+  "r": 1.05,
+  "exit_price": null,
+  "candles": 554
+ },
+ {
+  "n": 20,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "DRIFTUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "manual",
+  "entry_ms": 1731484980000,
+  "entry": 1.3,
+  "stop": 1.3435,
+  "target": 1.2567,
+  "side": "short",
+  "tf": 1,
+  "r": -0.71,
+  "exit_price": 1.3308,
+  "candles": 517
+ },
+ {
+  "n": 21,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "LUNA2USDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -3,
+  "outcome": "target",
+  "entry_ms": 1731755220000,
+  "entry": 0.4686,
+  "stop": 0.4505,
+  "target": 0.4867,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 513
+ },
+ {
+  "n": 22,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "DYDXUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -3,
+  "outcome": "target",
+  "entry_ms": 1731756540000,
+  "entry": 1.296,
+  "stop": 1.278,
+  "target": 1.318,
+  "side": "long",
+  "tf": 1,
+  "r": 1.22,
+  "exit_price": null,
+  "candles": 529
+ },
+ {
+  "n": 23,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "APTUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1732092360000,
+  "entry": 12.3468,
+  "stop": 12.1063,
+  "target": 12.5902,
+  "side": "long",
+  "tf": 1,
+  "r": 1.01,
+  "exit_price": null,
+  "candles": 510
+ },
+ {
+  "n": 24,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "AVAXUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "stop",
+  "entry_ms": 1732097160000,
+  "entry": 35.674,
+  "stop": 35.214,
+  "target": 36.151,
+  "side": "long",
+  "tf": 1,
+  "r": -1.0,
+  "exit_price": null,
+  "candles": 551
+ },
+ {
+  "n": 25,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "KSMUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1732609080000,
+  "entry": 37.141,
+  "stop": 37.881,
+  "target": 36.017,
+  "side": "short",
+  "tf": 1,
+  "r": 1.15,
+  "exit_price": 36.287,
+  "candles": 613
+ },
+ {
+  "n": 26,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "IMXUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 1,
+  "outcome": "target",
+  "entry_ms": 1732888980000,
+  "entry": 1.9272,
+  "stop": 1.8884,
+  "target": 1.966,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 544
+ },
+ {
+  "n": 27,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "IOTAUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1732913340000,
+  "entry": 0.2743,
+  "stop": 0.2685,
+  "target": 0.2801,
+  "side": "long",
+  "tf": 1,
+  "r": -0.24,
+  "exit_price": 0.2729,
+  "candles": 593
+ },
+ {
+  "n": 28,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "BNBUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1733252160000,
+  "entry": 677.94,
+  "stop": 668.04,
+  "target": 688.17,
+  "side": "long",
+  "tf": 1,
+  "r": 1.03,
+  "exit_price": null,
+  "candles": 516
+ },
+ {
+  "n": 29,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "WLDUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1733476020000,
+  "entry": 3.8404,
+  "stop": 3.9159,
+  "target": 3.7632,
+  "side": "short",
+  "tf": 1,
+  "r": 1.02,
+  "exit_price": null,
+  "candles": 526
+ },
+ {
+  "n": 30,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "TRBUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1733504040000,
+  "entry": 95.033,
+  "stop": 93.27,
+  "target": 97.121,
+  "side": "long",
+  "tf": 1,
+  "r": 1.18,
+  "exit_price": null,
+  "candles": 530
+ },
+ {
+  "n": 31,
+  "flags": [
+   "date set by matching candles: 1 day before the date read off the screenshot"
+  ],
+  "hyps": [
+   [
+    0.0,
+    1,
+    -1
+   ],
+   [
+    0.109,
+    3,
+    -45
+   ],
+   [
+    0.124,
+    2,
+    -1
+   ]
+  ],
+  "symbol": "HBARUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1,
+  "day_shift": -1,
+  "entry_shift_min": -3,
+  "outcome": "stop",
+  "entry_ms": 1737035880000,
+  "entry": 0.37171,
+  "stop": 0.36057,
+  "target": 0.38287,
+  "side": "long",
+  "tf": 1,
+  "r": -1.0,
+  "exit_price": null,
+  "candles": 540
+ },
+ {
+  "n": 32,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "AI16ZUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "manual",
+  "entry_ms": 1743000300000,
+  "entry": 0.1968,
+  "stop": 0.2005,
+  "target": 0.1928,
+  "side": "short",
+  "tf": 1,
+  "r": 0.03,
+  "exit_price": 0.1967,
+  "candles": 558
+ },
+ {
+  "n": 33,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "FILUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1735914600000,
+  "entry": 5.575,
+  "stop": 5.468,
+  "target": 5.682,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 616
+ },
+ {
+  "n": 34,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "ENAUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1736955420000,
+  "entry": 0.9177,
+  "stop": 0.8868,
+  "target": 0.9484,
+  "side": "long",
+  "tf": 1,
+  "r": -0.64,
+  "exit_price": 0.8979,
+  "candles": 517
+ },
+ {
+  "n": 35,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "AVAAIUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1737979020000,
+  "entry": 0.08264,
+  "stop": 0.085,
+  "target": 0.0796,
+  "side": "short",
+  "tf": 1,
+  "r": 1.29,
+  "exit_price": null,
+  "candles": 504
+ },
+ {
+  "n": 36,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "FARTCOINUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -2,
+  "outcome": "manual",
+  "entry_ms": 1738238040000,
+  "entry": 1.1648,
+  "stop": 1.1248,
+  "target": 1.2054,
+  "side": "long",
+  "tf": 1,
+  "r": -0.55,
+  "exit_price": 1.1429,
+  "candles": 550
+ },
+ {
+  "n": 37,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "FILUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1738250400000,
+  "entry": 4.825,
+  "stop": 4.741,
+  "target": 4.909,
+  "side": "long",
+  "tf": 1,
+  "r": -0.27,
+  "exit_price": 4.802,
+  "candles": 578
+ },
+ {
+  "n": 38,
+  "flags": [],
+  "hyps": [
+   [
+    0.001,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "ARCUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.001,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1738312740000,
+  "entry": 0.2938,
+  "stop": 0.30098,
+  "target": 0.28617,
+  "side": "short",
+  "tf": 1,
+  "r": 1.06,
+  "exit_price": null,
+  "candles": 606
+ },
+ {
+  "n": 39,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "1000PEPEUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1738329780000,
+  "entry": 0.0142291,
+  "stop": 0.0138217,
+  "target": 0.0146359,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 569
+ },
+ {
+  "n": 40,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "ACHUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1738414680000,
+  "entry": 0.048823,
+  "stop": 0.050328,
+  "target": 0.047278,
+  "side": "short",
+  "tf": 1,
+  "r": 1.03,
+  "exit_price": null,
+  "candles": 522
+ },
+ {
+  "n": 41,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "AI16ZUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "stop",
+  "entry_ms": 1739822280000,
+  "entry": 0.341,
+  "stop": 0.35,
+  "target": 0.3318,
+  "side": "short",
+  "tf": 1,
+  "r": -1.0,
+  "exit_price": null,
+  "candles": 521
+ },
+ {
+  "n": 42,
+  "flags": [
+   "date set by matching candles: 3 days before the date read off the screenshot",
+   "time axis fits UTC+0, not the screenshot's UTC+1"
+  ],
+  "hyps": [
+   [
+    0.03,
+    0,
+    -3
+   ],
+   [
+    0.079,
+    0,
+    -2
+   ],
+   [
+    0.118,
+    -7,
+    -2
+   ]
+  ],
+  "symbol": "AUCTIONUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.03,
+  "utc_offset": 0,
+  "day_shift": -3,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1743151920000,
+  "entry": 17.615,
+  "stop": 17.791,
+  "target": 17.248,
+  "side": "short",
+  "tf": 1,
+  "r": 2.09,
+  "exit_price": null,
+  "candles": 534
+ },
+ {
+  "n": 43,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "VANAUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 2,
+  "outcome": "manual",
+  "entry_ms": 1737620460000,
+  "entry": 11.48,
+  "stop": 11.134,
+  "target": 11.825,
+  "side": "long",
+  "tf": 1,
+  "r": -0.44,
+  "exit_price": 11.327,
+  "candles": 508
+ },
+ {
+  "n": 44,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "ARBUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1741166520000,
+  "entry": 0.3937,
+  "stop": 0.3864,
+  "target": 0.401,
+  "side": "long",
+  "tf": 1,
+  "r": 0.0,
+  "exit_price": 0.3937,
+  "candles": 529
+ },
+ {
+  "n": 45,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "ARCUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1741190520000,
+  "entry": 0.15959,
+  "stop": 0.1637,
+  "target": 0.15419,
+  "side": "short",
+  "tf": 1,
+  "r": 1.31,
+  "exit_price": null,
+  "candles": 530
+ },
+ {
+  "n": 46,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "ONDOUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1741200840000,
+  "entry": 1.1196,
+  "stop": 1.0982,
+  "target": 1.141,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 520
+ },
+ {
+  "n": 47,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "BNXUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "stop",
+  "entry_ms": 1741800300000,
+  "entry": 1.0441,
+  "stop": 1.0652,
+  "target": 1.023,
+  "side": "short",
+  "tf": 1,
+  "r": -1.0,
+  "exit_price": null,
+  "candles": 546
+ },
+ {
+  "n": 48,
+  "flags": [
+   "screenshot is from PHEMEX: prices can differ slightly",
+   "candles from Binance (screenshot: PHEMEX)"
+  ],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "SUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1750747020000,
+  "entry": 0.339,
+  "stop": 0.3352,
+  "target": 0.3431,
+  "side": "long",
+  "tf": 1,
+  "r": 1.08,
+  "exit_price": null,
+  "candles": 528
+ },
+ {
+  "n": 49,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "1000PEPEUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1737102540000,
+  "entry": 0.0192425,
+  "stop": 0.019037,
+  "target": 0.019694,
+  "side": "long",
+  "tf": 1,
+  "r": 2.2,
+  "exit_price": null,
+  "candles": 510
+ },
+ {
+  "n": 50,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "RPLUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "manual",
+  "entry_ms": 1749729300000,
+  "entry": 6.321,
+  "stop": 6.449,
+  "target": 6.205,
+  "side": "short",
+  "tf": 1,
+  "r": -0.27,
+  "exit_price": 6.356,
+  "candles": 560
+ },
+ {
+  "n": 51,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "AIXBTUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1736758560000,
+  "entry": 0.41106,
+  "stop": 0.41885,
+  "target": 0.40241,
+  "side": "short",
+  "tf": 1,
+  "r": 1.11,
+  "exit_price": null,
+  "candles": 571
+ },
+ {
+  "n": 52,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "ACTUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1736241420000,
+  "entry": 0.4133,
+  "stop": 0.40029,
+  "target": 0.42966,
+  "side": "long",
+  "tf": 1,
+  "r": 1.26,
+  "exit_price": null,
+  "candles": 508
+ },
+ {
+  "n": 53,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "BANUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1735293420000,
+  "entry": 0.0591,
+  "stop": 0.0567,
+  "target": 0.0618,
+  "side": "long",
+  "tf": 1,
+  "r": 1.13,
+  "exit_price": null,
+  "candles": 520
+ },
+ {
+  "n": 54,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "COWUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -2,
+  "outcome": "target",
+  "entry_ms": 1734413700000,
+  "entry": 0.8193,
+  "stop": 0.832,
+  "target": 0.8052,
+  "side": "short",
+  "tf": 1,
+  "r": 1.11,
+  "exit_price": null,
+  "candles": 550
+ },
+ {
+  "n": 55,
+  "flags": [
+   "date set by matching candles: 1 day before the date read off the screenshot"
+  ],
+  "hyps": [
+   [
+    0.0,
+    1,
+    -1
+   ],
+   [
+    0.198,
+    0,
+    -1
+   ],
+   [
+    0.206,
+    2,
+    -1
+   ]
+  ],
+  "symbol": "1MBABYDOGEUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1,
+  "day_shift": -1,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1733564880000,
+  "entry": 0.003548,
+  "stop": 0.0033046,
+  "target": 0.003839,
+  "side": "long",
+  "tf": 1,
+  "r": 1.2,
+  "exit_price": null,
+  "candles": 510
+ },
+ {
+  "n": 56,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "CATIUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1731942900000,
+  "entry": 0.5863,
+  "stop": 0.5534,
+  "target": 0.6258,
+  "side": "long",
+  "tf": 1,
+  "r": -0.07,
+  "exit_price": 0.584,
+  "candles": 521
+ },
+ {
+  "n": 57,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "HAEDALUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1750653780000,
+  "entry": 0.1252,
+  "stop": 0.1222,
+  "target": 0.1282,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 514
+ },
+ {
+  "n": 58,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "PEOPLEUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1727861640000,
+  "entry": 0.06548,
+  "stop": 0.06625,
+  "target": 0.06455,
+  "side": "short",
+  "tf": 1,
+  "r": 1.21,
+  "exit_price": null,
+  "candles": 513
+ },
+ {
+  "n": 59,
+  "flags": [
+   "date set by matching candles: 1 day before the date read off the screenshot"
+  ],
+  "hyps": [
+   [
+    0.0,
+    2,
+    -1
+   ],
+   [
+    0.16,
+    1,
+    -1
+   ],
+   [
+    0.165,
+    6,
+    -39
+   ]
+  ],
+  "symbol": "WLDUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2,
+  "day_shift": -1,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1726164960000,
+  "entry": 1.5483,
+  "stop": 1.5209,
+  "target": 1.5785,
+  "side": "long",
+  "tf": 1,
+  "r": 1.1,
+  "exit_price": null,
+  "candles": 530
+ },
+ {
+  "n": 60,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    4.0,
+    0
+   ]
+  ],
+  "symbol": "SPXUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 4.0,
+  "day_shift": 0,
+  "entry_shift_min": 1,
+  "outcome": "stop",
+  "entry_ms": 1750439220000,
+  "entry": 1.0638,
+  "stop": 1.0963,
+  "target": 1.0314,
+  "side": "short",
+  "tf": 1,
+  "r": -1.0,
+  "exit_price": null,
+  "candles": 525
+ },
+ {
+  "n": 61,
+  "flags": [
+   "date set by matching candles: 3 days before the date read off the screenshot"
+  ],
+  "hyps": [
+   [
+    0.0,
+    2,
+    -3
+   ],
+   [
+    0.112,
+    1,
+    -3
+   ],
+   [
+    0.115,
+    2,
+    -64
+   ]
+  ],
+  "symbol": "WIFUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2,
+  "day_shift": -3,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1726044360000,
+  "entry": 1.5557,
+  "stop": 1.5721,
+  "target": 1.5377,
+  "side": "short",
+  "tf": 1,
+  "r": 1.1,
+  "exit_price": null,
+  "candles": 601
+ },
+ {
+  "n": 62,
+  "flags": [
+   "date set by matching candles: 4 days before the date read off the screenshot"
+  ],
+  "hyps": [
+   [
+    0.002,
+    2,
+    -4
+   ],
+   [
+    0.098,
+    1,
+    -4
+   ],
+   [
+    0.11,
+    -7,
+    -54
+   ]
+  ],
+  "symbol": "APEUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.002,
+  "utc_offset": 2,
+  "day_shift": -4,
+  "entry_shift_min": -2,
+  "outcome": "manual",
+  "entry_ms": 1725972840000,
+  "entry": 0.8212,
+  "stop": 0.8304,
+  "target": 0.81,
+  "side": "short",
+  "tf": 1,
+  "r": -0.08,
+  "exit_price": 0.8219,
+  "candles": 531
+ },
+ {
+  "n": 63,
+  "flags": [
+   "date set by matching candles: 3 days before the date read off the screenshot"
+  ],
+  "hyps": [
+   [
+    0.0,
+    2,
+    -3
+   ],
+   [
+    0.125,
+    -10,
+    -9
+   ],
+   [
+    0.145,
+    7,
+    -79
+   ]
+  ],
+  "symbol": "NOTUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2,
+  "day_shift": -3,
+  "entry_shift_min": -3,
+  "outcome": "target",
+  "entry_ms": 1723642560000,
+  "entry": 0.011931,
+  "stop": 0.01209,
+  "target": 0.011755,
+  "side": "short",
+  "tf": 1,
+  "r": 1.11,
+  "exit_price": null,
+  "candles": 518
+ },
+ {
+  "n": 64,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "AIUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1723458420000,
+  "entry": 0.4191,
+  "stop": 0.40879,
+  "target": 0.43146,
+  "side": "long",
+  "tf": 1,
+  "r": 1.2,
+  "exit_price": null,
+  "candles": 542
+ },
+ {
+  "n": 65,
+  "flags": [
+   "date set by matching candles: 1 day before the date read off the screenshot"
+  ],
+  "hyps": [
+   [
+    0.0,
+    2,
+    -1
+   ],
+   [
+    0.114,
+    1,
+    -1
+   ],
+   [
+    0.127,
+    -2,
+    -3
+   ]
+  ],
+  "symbol": "FETUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2,
+  "day_shift": -1,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1718801460000,
+  "entry": 1.3758,
+  "stop": 1.3521,
+  "target": 1.4042,
+  "side": "long",
+  "tf": 1,
+  "r": 1.2,
+  "exit_price": null,
+  "candles": 525
+ },
+ {
+  "n": 66,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "HIGHUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1718099520000,
+  "entry": 3.2306,
+  "stop": 3.3016,
+  "target": 3.1457,
+  "side": "short",
+  "tf": 1,
+  "r": 1.2,
+  "exit_price": null,
+  "candles": 580
+ },
+ {
+  "n": 67,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "ONDOUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1717256700000,
+  "entry": 1.3321,
+  "stop": 1.3135,
+  "target": 1.3545,
+  "side": "long",
+  "tf": 1,
+  "r": 1.2,
+  "exit_price": null,
+  "candles": 508
+ },
+ {
+  "n": 68,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "BELUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": -3,
+  "outcome": "target",
+  "entry_ms": 1712729940000,
+  "entry": 2.5244,
+  "stop": 2.4351,
+  "target": 2.6238,
+  "side": "long",
+  "tf": 1,
+  "r": 1.11,
+  "exit_price": null,
+  "candles": 519
+ },
+ {
+  "n": 69,
+  "flags": [],
+  "hyps": [
+   [
+    0.001,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "SPXUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.001,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -3,
+  "outcome": "manual",
+  "entry_ms": 1737134700000,
+  "entry": 1.4835,
+  "stop": 1.4417,
+  "target": 1.5298,
+  "side": "long",
+  "tf": 1,
+  "r": -0.75,
+  "exit_price": 1.4523,
+  "candles": 510
+ },
+ {
+  "n": 70,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "BIOUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1736934660000,
+  "entry": 0.3829,
+  "stop": 0.3918,
+  "target": 0.3728,
+  "side": "short",
+  "tf": 1,
+  "r": -0.73,
+  "exit_price": 0.3894,
+  "candles": 531
+ },
+ {
+  "n": 71,
+  "flags": [
+   "date set by matching candles: 2 days before the date read off the screenshot"
+  ],
+  "hyps": [
+   [
+    0.0,
+    1,
+    -2
+   ],
+   [
+    0.122,
+    0,
+    -2
+   ],
+   [
+    0.159,
+    -12,
+    -3
+   ]
+  ],
+  "symbol": "FARTCOINUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1,
+  "day_shift": -2,
+  "entry_shift_min": -1,
+  "outcome": "stop",
+  "entry_ms": 1735029240000,
+  "entry": 0.9027,
+  "stop": 0.8643,
+  "target": 0.9452,
+  "side": "long",
+  "tf": 1,
+  "r": -1.0,
+  "exit_price": null,
+  "candles": 541
+ },
+ {
+  "n": 72,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "ACTUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1733479560000,
+  "entry": 0.57786,
+  "stop": 0.58482,
+  "target": 0.57006,
+  "side": "short",
+  "tf": 1,
+  "r": -0.54,
+  "exit_price": 0.58159,
+  "candles": 533
+ },
+ {
+  "n": 73,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "POPCATUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": -2,
+  "outcome": "manual",
+  "entry_ms": 1729843560000,
+  "entry": 1.4418,
+  "stop": 1.4599,
+  "target": 1.4211,
+  "side": "short",
+  "tf": 1,
+  "r": -0.82,
+  "exit_price": 1.4567,
+  "candles": 538
+ },
+ {
+  "n": 74,
+  "flags": [
+   "date set by matching candles: 1 day before the date read off the screenshot"
+  ],
+  "hyps": [
+   [
+    0.0,
+    2,
+    -1
+   ],
+   [
+    0.093,
+    -6,
+    -5
+   ],
+   [
+    0.108,
+    1,
+    -1
+   ]
+  ],
+  "symbol": "1MBABYDOGEUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2,
+  "day_shift": -1,
+  "entry_shift_min": -1,
+  "outcome": "manual",
+  "entry_ms": 1729240920000,
+  "entry": 0.0034005,
+  "stop": 0.0033148,
+  "target": 0.0034986,
+  "side": "long",
+  "tf": 1,
+  "r": -0.16,
+  "exit_price": 0.0033869,
+  "candles": 523
+ },
+ {
+  "n": 75,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "EIGENUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1749729060000,
+  "entry": 1.4467,
+  "stop": 1.463,
+  "target": 1.4305,
+  "side": "short",
+  "tf": 1,
+  "r": 0.99,
+  "exit_price": null,
+  "candles": 523
+ },
+ {
+  "n": 76,
+  "flags": [
+   "date set by matching candles: 1 day before the date read off the screenshot"
+  ],
+  "hyps": [
+   [
+    0.0,
+    2,
+    -1
+   ],
+   [
+    0.152,
+    1,
+    -1
+   ],
+   [
+    0.199,
+    -1,
+    -7
+   ]
+  ],
+  "symbol": "BBUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2,
+  "day_shift": -1,
+  "entry_shift_min": -2,
+  "outcome": "manual",
+  "entry_ms": 1717263600000,
+  "entry": 0.7265,
+  "stop": 0.7098,
+  "target": 0.7453,
+  "side": "long",
+  "tf": 1,
+  "r": -0.73,
+  "exit_price": 0.7143,
+  "candles": 507
+ },
+ {
+  "n": 77,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "1000PEPEUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1743683700000,
+  "entry": 0.006741,
+  "stop": 0.006883,
+  "target": 0.006599,
+  "side": "short",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 513
+ },
+ {
+  "n": 78,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    10.0,
+    0
+   ]
+  ],
+  "symbol": "XLMUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 10.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1720856460000,
+  "entry": 0.10036,
+  "stop": 0.09883,
+  "target": 0.10189,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 557
+ },
+ {
+  "n": 79,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    3.0,
+    0
+   ]
+  ],
+  "symbol": "1000PEPEUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 3.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1743678540000,
+  "entry": 0.006902,
+  "stop": 0.0070327,
+  "target": 0.006729,
+  "side": "short",
+  "tf": 1,
+  "r": 1.32,
+  "exit_price": null,
+  "candles": 579
+ },
+ {
+  "n": 80,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "VOXELUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": -3,
+  "outcome": "manual",
+  "entry_ms": 1743669840000,
+  "entry": 0.0368,
+  "stop": 0.0413,
+  "target": 0.031,
+  "side": "short",
+  "tf": 1,
+  "r": 0.44,
+  "exit_price": 0.0348,
+  "candles": 541
+ },
+ {
+  "n": 81,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "SOLUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1743632160000,
+  "entry": 121.63,
+  "stop": 123.25,
+  "target": 120.08,
+  "side": "short",
+  "tf": 1,
+  "r": 0.96,
+  "exit_price": null,
+  "candles": 524
+ },
+ {
+  "n": 82,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "AUCTIONUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1743151920000,
+  "entry": 17.615,
+  "stop": 17.791,
+  "target": 17.163,
+  "side": "short",
+  "tf": 1,
+  "r": 2.57,
+  "exit_price": null,
+  "candles": 535
+ },
+ {
+  "n": 83,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "API3USDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1743127680000,
+  "entry": 1.229,
+  "stop": 1.1963,
+  "target": 1.2616,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 513
+ },
+ {
+  "n": 84,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    -4.0,
+    0
+   ]
+  ],
+  "symbol": "ARCUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": -4.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1743007260000,
+  "entry": 0.05353,
+  "stop": 0.05462,
+  "target": 0.05234,
+  "side": "short",
+  "tf": 1,
+  "r": 1.09,
+  "exit_price": null,
+  "candles": 538
+ },
+ {
+  "n": 85,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "ARCUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": -3,
+  "outcome": "manual",
+  "entry_ms": 1742992200000,
+  "entry": 0.05767,
+  "stop": 0.05919,
+  "target": 0.05603,
+  "side": "short",
+  "tf": 1,
+  "r": 0.34,
+  "exit_price": 0.05716,
+  "candles": 514
+ },
+ {
+  "n": 86,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "SWELLUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1742987880000,
+  "entry": 0.01503,
+  "stop": 0.01476,
+  "target": 0.01532,
+  "side": "long",
+  "tf": 1,
+  "r": 1.07,
+  "exit_price": null,
+  "candles": 516
+ },
+ {
+  "n": 87,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    1.0,
+    0
+   ]
+  ],
+  "symbol": "ARCUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1742823960000,
+  "entry": 0.078,
+  "stop": 0.07445,
+  "target": 0.08151,
+  "side": "long",
+  "tf": 1,
+  "r": 0.99,
+  "exit_price": null,
+  "candles": 519
+ },
+ {
+  "n": 88,
+  "flags": [
+   "date set by matching candles: 13 days before the date read off the screenshot"
+  ],
+  "hyps": [
+   [
+    0.0,
+    1,
+    -13
+   ],
+   [
+    0.085,
+    -3,
+    -83
+   ],
+   [
+    0.101,
+    8,
+    -14
+   ]
+  ],
+  "symbol": "1000BONKUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 1,
+  "day_shift": -13,
+  "entry_shift_min": 0,
+  "outcome": "stop",
+  "entry_ms": 1737476760000,
+  "entry": 0.034566,
+  "stop": 0.03361,
+  "target": 0.03562,
+  "side": "long",
+  "tf": 1,
+  "r": -1.0,
+  "exit_price": null,
+  "candles": 513
+ },
+ {
+  "n": 89,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "PNUTUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1742615580000,
+  "entry": 0.18654,
+  "stop": 0.1846,
+  "target": 0.18848,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 512
+ },
+ {
+  "n": 90,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "AGLDUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -3,
+  "outcome": "target",
+  "entry_ms": 1742610180000,
+  "entry": 1.064,
+  "stop": 1.0519,
+  "target": 1.0761,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 529
+ },
+ {
+  "n": 91,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "ARCUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1742317320000,
+  "entry": 0.03972,
+  "stop": 0.04065,
+  "target": 0.03879,
+  "side": "short",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 526
+ },
+ {
+  "n": 92,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    2.0,
+    0
+   ]
+  ],
+  "symbol": "SOLUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 2.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1750436040000,
+  "entry": 142.4,
+  "stop": 143.82,
+  "target": 140.98,
+  "side": "short",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 565
+ },
+ {
+  "n": 93,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "FARTCOINUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "manual",
+  "entry_ms": 1741885380000,
+  "entry": 0.2606,
+  "stop": 0.2641,
+  "target": 0.2408,
+  "side": "short",
+  "tf": 1,
+  "r": 1.4,
+  "exit_price": 0.2557,
+  "candles": 639
+ },
+ {
+  "n": 94,
+  "flags": [
+   "screenshot is from PHEMEX: prices can differ slightly",
+   "candles from Binance (screenshot: PHEMEX)"
+  ],
+  "hyps": [
+   [
+    0.0,
+    -6.0,
+    0
+   ]
+  ],
+  "symbol": "MOVEUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": -6.0,
+  "day_shift": 0,
+  "entry_shift_min": -3,
+  "outcome": "target",
+  "entry_ms": 1741562940000,
+  "entry": 0.4654,
+  "stop": 0.4749,
+  "target": 0.4559,
+  "side": "short",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 548
+ },
+ {
+  "n": 95,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    -5.0,
+    0
+   ]
+  ],
+  "symbol": "ARCUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": -5.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1741441740000,
+  "entry": 0.08987,
+  "stop": 0.09226,
+  "target": 0.08747,
+  "side": "short",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 532
+ },
+ {
+  "n": 96,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "GRIFFAINUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "target",
+  "entry_ms": 1741332480000,
+  "entry": 0.0552,
+  "stop": 0.05593,
+  "target": 0.0532,
+  "side": "short",
+  "tf": 1,
+  "r": 2.74,
+  "exit_price": null,
+  "candles": 554
+ },
+ {
+  "n": 97,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "INJUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": 0,
+  "outcome": "manual",
+  "entry_ms": 1741233840000,
+  "entry": 12.645,
+  "stop": 12.516,
+  "target": 12.774,
+  "side": "long",
+  "tf": 1,
+  "r": -0.92,
+  "exit_price": 12.526,
+  "candles": 526
+ },
+ {
+  "n": 98,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "ARCUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1741190520000,
+  "entry": 0.15959,
+  "stop": 0.1637,
+  "target": 0.15419,
+  "side": "short",
+  "tf": 1,
+  "r": 1.31,
+  "exit_price": null,
+  "candles": 530
+ },
+ {
+  "n": 99,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    0.0,
+    0
+   ]
+  ],
+  "symbol": "TIAUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": 0.0,
+  "day_shift": 0,
+  "entry_shift_min": -1,
+  "outcome": "target",
+  "entry_ms": 1740771060000,
+  "entry": 3.9895,
+  "stop": 3.9107,
+  "target": 4.0681,
+  "side": "long",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 527
+ },
+ {
+  "n": 100,
+  "flags": [],
+  "hyps": [
+   [
+    0.0,
+    -5.0,
+    0
+   ]
+  ],
+  "symbol": "GRIFFAINUSDT",
+  "exchange": "BINANCE",
+  "fit": 0.0,
+  "utc_offset": -5.0,
+  "day_shift": 0,
+  "entry_shift_min": -2,
+  "outcome": "target",
+  "entry_ms": 1740163140000,
+  "entry": 0.07543,
+  "stop": 0.07813,
+  "target": 0.07273,
+  "side": "short",
+  "tf": 1,
+  "r": 1.0,
+  "exit_price": null,
+  "candles": 507
+ }
+]

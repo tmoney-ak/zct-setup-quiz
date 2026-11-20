@@ -1,0 +1,2979 @@
+[
+ {
+  "n": 1,
+  "kind": "momo",
+  "page": 7,
+  "link": "https://www.tradingview.com/x/M5oHN6go/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "There is a bit less than 2 hours of “staircase” on this trade which makes the trade a bit more risky.",
+   "However the very clean “grind into the nearby support levels” on the left hand side compensate for this and still make the trade valid for a momo short.",
+   "This one is a bit riskier than the other ones to take, so be very careful whenever you decide to take a Momo Trade with less than 2 hours of staircasing on the left hand side."
+  ],
+  "img": [
+   1827,
+   892
+  ],
+  "extras": 0
+ },
+ {
+  "n": 2,
+  "kind": "momo",
+  "page": 8,
+  "link": "https://www.tradingview.com/x/tPOiCqOC/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "There is less than 2 hours of “staircase” on this trade which makes the trade a bit more risky.",
+   "However the very clean “grind into the nearby support levels” on the left hand side compensate for this and still make the trade valid for a momo short.",
+   "This one is a bit riskier than the other ones to take, so be very careful whenever you decide to take a Momo Trade with less than 2 hours of staircasing on the left hand side."
+  ],
+  "img": [
+   1555,
+   909
+  ],
+  "extras": 0
+ },
+ {
+  "n": 3,
+  "kind": "momo",
+  "page": 9,
+  "link": "https://www.tradingview.com/x/BecJRLbo/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The avg. volume at the point of entry is \"just ever so slightly\" higher than the avg. volume at the start of the staircase. It's barely noticeable.",
+   "For that reason this volume is better to be classified as \"flat\" rather than increasing.",
+   "Despite the volume being trickier to interpret on this particular trade, it's still valid for a Momo Long because of the slow grind into the level + staircase price action on the left hand side."
+  ],
+  "img": [
+   1524,
+   909
+  ],
+  "extras": 0
+ },
+ {
+  "n": 4,
+  "kind": "momo",
+  "page": 10,
+  "link": "https://www.tradingview.com/x/8OWtocCk/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1525,
+   909
+  ],
+  "extras": 1
+ },
+ {
+  "n": 5,
+  "kind": "momo",
+  "page": 11,
+  "link": "https://www.tradingview.com/x/lTYwLByg/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1633,
+   909
+  ],
+  "extras": 0
+ },
+ {
+  "n": 6,
+  "kind": "momo",
+  "page": 12,
+  "link": "https://www.tradingview.com/x/yxjGQN73/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1623,
+   909
+  ],
+  "extras": 0
+ },
+ {
+  "n": 7,
+  "kind": "momo",
+  "page": 13,
+  "link": "https://www.tradingview.com/x/2DJKch86/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1623,
+   909
+  ],
+  "extras": 0
+ },
+ {
+  "n": 8,
+  "kind": "momo",
+  "page": 14,
+  "link": "https://www.tradingview.com/x/reAtlxii/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1634,
+   909
+  ],
+  "extras": 0
+ },
+ {
+  "n": 9,
+  "kind": "momo",
+  "page": 15,
+  "link": "https://www.tradingview.com/x/Ox8Ib3XC/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1451,
+   740
+  ],
+  "extras": 0
+ },
+ {
+  "n": 10,
+  "kind": "momo",
+  "page": 16,
+  "link": "https://www.tradingview.com/x/5YLogPCa/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1451,
+   740
+  ],
+  "extras": 0
+ },
+ {
+  "n": 11,
+  "kind": "momo",
+  "page": 17,
+  "link": "https://www.tradingview.com/x/X4mcA502/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   1154
+  ],
+  "extras": 0
+ },
+ {
+  "n": 12,
+  "kind": "momo",
+  "page": 18,
+  "link": "https://www.tradingview.com/x/J0MwlSj7/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1634,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 13,
+  "kind": "momo",
+  "page": 19,
+  "link": "https://www.tradingview.com/x/MAmepOZ1/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1634,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 14,
+  "kind": "momo",
+  "page": 20,
+  "link": "https://www.tradingview.com/x/ZTQtOvzP/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1634,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 15,
+  "kind": "momo",
+  "page": 21,
+  "link": "https://www.tradingview.com/x/gGBkqWfK/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   1055
+  ],
+  "extras": 0
+ },
+ {
+  "n": 16,
+  "kind": "momo",
+  "page": 22,
+  "link": "https://www.tradingview.com/x/zfAdT5qE/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume is technically increasing, but just barely.",
+   "Despite the volume being tricky to interpret the trade is still valid for a Momo Short because of the clean grind into the level + staircase price action on the left hand side."
+  ],
+  "img": [
+   1838,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 17,
+  "kind": "momo",
+  "page": 23,
+  "link": "https://www.tradingview.com/x/Lt8Im3w6/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1634,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 18,
+  "kind": "momo",
+  "page": 24,
+  "link": "https://www.tradingview.com/x/lrZTdfGL/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1634,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 19,
+  "kind": "momo",
+  "page": 25,
+  "link": "https://www.tradingview.com/x/vZbDHbSr/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   1055
+  ],
+  "extras": 0
+ },
+ {
+  "n": 20,
+  "kind": "momo",
+  "page": 26,
+  "link": "https://www.tradingview.com/x/hest8aik/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 2
+ },
+ {
+  "n": 21,
+  "kind": "momo",
+  "page": 27,
+  "link": "https://www.tradingview.com/x/JwU3kAe4/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 22,
+  "kind": "momo",
+  "page": 28,
+  "link": "https://www.tradingview.com/x/xpIbbAqK/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 23,
+  "kind": "momo",
+  "page": 29,
+  "link": "https://www.tradingview.com/x/1Ro8OYx1/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1527,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 24,
+  "kind": "momo",
+  "page": 30,
+  "link": "https://www.tradingview.com/x/7ZR5trkU/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 25,
+  "kind": "momo",
+  "page": 31,
+  "link": "https://www.tradingview.com/x/D4vEblYi/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1081,
+   627
+  ],
+  "extras": 0
+ },
+ {
+  "n": 26,
+  "kind": "momo",
+  "page": 32,
+  "link": "https://www.tradingview.com/x/TOTNi3BZ/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Volume = increasing because avg. volume at the point of entry is higher than the point where the staircase began."
+  ],
+  "img": [
+   1635,
+   939
+  ],
+  "extras": 2
+ },
+ {
+  "n": 27,
+  "kind": "momo",
+  "page": 33,
+  "link": "https://www.tradingview.com/x/bHoO1LnC/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1635,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 28,
+  "kind": "momo",
+  "page": 34,
+  "link": "https://www.tradingview.com/x/ZWYHOSOl/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1563,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 29,
+  "kind": "momo",
+  "page": 35,
+  "link": "https://www.tradingview.com/x/PSQkW9MX/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1563,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 30,
+  "kind": "momo",
+  "page": 36,
+  "link": "https://www.tradingview.com/x/P0PQvA4C/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1563,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 31,
+  "kind": "momo",
+  "page": 37,
+  "link": "https://www.tradingview.com/x/tlnLx7t9/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   1128
+  ],
+  "extras": 0
+ },
+ {
+  "n": 32,
+  "kind": "momo",
+  "page": 38,
+  "link": "https://www.tradingview.com/x/eaPkomlN/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Volume = cannot be “increasing” because avg. volume is roughly the same at the point where the downwards staircase began.",
+   "So yes there was some upwards looking price action until 12:00 UTC",
+   "But after 12:00 UTC it was non-stop selling with every single support level being successfully broken with barely any pullbacks.",
+   "Momo Shorts are very in sync with this price action.",
+   "Relevant video: 1 Approach to judging how \"in sync\" your strategy is to Recent Price Action"
+  ],
+  "img": [
+   2048,
+   1235
+  ],
+  "extras": 1
+ },
+ {
+  "n": 33,
+  "kind": "momo",
+  "page": 39,
+  "link": "https://www.tradingview.com/x/Tioj4lx4/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": "Was the volume consistently increasing"
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The avg. volume at the point of entry is technically higher than the place where the staircase visibly began on the screenshot… however just barely.",
+   "Despite the volume mainly looking “somewhat flat” in this screenshot, it’s still valid to take the momo long here due to the staircase + grind into the level."
+  ],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 34,
+  "kind": "momo",
+  "page": 40,
+  "link": "https://www.tradingview.com/x/xZth3I8x/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1627,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 35,
+  "kind": "momo",
+  "page": 41,
+  "link": "https://www.tradingview.com/x/3keWagAO/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1614,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 36,
+  "kind": "momo",
+  "page": 42,
+  "link": "https://www.tradingview.com/x/Cexnf11z/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 37,
+  "kind": "momo",
+  "page": 43,
+  "link": "https://www.tradingview.com/x/ML9JR9IX/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1614,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 38,
+  "kind": "momo",
+  "page": 44,
+  "link": "https://www.tradingview.com/x/fGxTO4E0/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1838,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 39,
+  "kind": "momo",
+  "page": 45,
+  "link": "https://www.tradingview.com/x/858o7nRM/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1614,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 40,
+  "kind": "momo",
+  "page": 46,
+  "link": "https://www.tradingview.com/x/CRXBv1HI/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1614,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 41,
+  "kind": "momo",
+  "page": 47,
+  "link": "https://www.tradingview.com/x/Dkp2lARA/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1585,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 42,
+  "kind": "momo",
+  "page": 48,
+  "link": "https://www.tradingview.com/x/ei10MpHu/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1388,
+   1065
+  ],
+  "extras": 0
+ },
+ {
+  "n": 43,
+  "kind": "momo",
+  "page": 49,
+  "link": "https://www.tradingview.com/x/Fxbu7ABC/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1311,
+   945
+  ],
+  "extras": 0
+ },
+ {
+  "n": 44,
+  "kind": "momo",
+  "page": 50,
+  "link": "https://www.tradingview.com/x/iJE7013k/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Yes it looks like the volume was flat for an hour before entry, but the avg. volume is gradually increasing as the staircase was developing from  the very left hand side of the chart.",
+   "The average volume at  the point of entry is also higher than the starting point of the staircase by a large amount."
+  ],
+  "img": [
+   1529,
+   939
+  ],
+  "extras": 2
+ },
+ {
+  "n": 45,
+  "kind": "momo",
+  "page": 51,
+  "link": "https://www.tradingview.com/x/gZR70z2t/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Volume is just \"barely\" increasing on this one.",
+   "However the trade is still valid to take because of the grind into the level + long duration staircase on the left hand side."
+  ],
+  "img": [
+   1529,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 46,
+  "kind": "momo",
+  "page": 52,
+  "link": "https://www.tradingview.com/x/wko8J3Gq/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1529,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 47,
+  "kind": "momo",
+  "page": 53,
+  "link": "https://www.tradingview.com/x/aG2lWatN/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 48,
+  "kind": "momo",
+  "page": 54,
+  "link": "https://www.tradingview.com/x/DUiDia4h/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The level selected on this trade is NOT ideal (very recent level)",
+   "Ideally the level selected for the entry is some resistance from a swing high created further back in the past.",
+   "But apart from the level selection, the point is that this is the exact type of price action you want to see for a Momo Trade.",
+   "Volume = trickier to interpret because the screenshot was taken from Phemex. It looks like it’s “barely” increasing since the start of the staircase but it’s unclear."
+  ],
+  "img": [
+   1802,
+   968
+  ],
+  "extras": 0
+ },
+ {
+  "n": 49,
+  "kind": "momo",
+  "page": 55,
+  "link": "https://www.tradingview.com/x/mtWaAOeq/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "mid",
+    "extra": "This one is higher risk than usual because there is less than 2hrs of “staircase”, however due to the clean/consistent grind + noticeably large increase in volume it compensates for this and is good for momo long. ."
+   }
+  ],
+  "notes": [],
+  "img": [
+   1359,
+   1271
+  ],
+  "extras": 0
+ },
+ {
+  "n": 50,
+  "kind": "momo",
+  "page": 56,
+  "link": "https://www.tradingview.com/x/9daHbKex/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   978
+  ],
+  "extras": 0
+ },
+ {
+  "n": 51,
+  "kind": "momo",
+  "page": 57,
+  "link": "https://www.tradingview.com/x/UNsQO0o6/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   848
+  ],
+  "extras": 2
+ },
+ {
+  "n": 52,
+  "kind": "momo",
+  "page": 58,
+  "link": "https://www.tradingview.com/x/MkZcSXLV/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   880
+  ],
+  "extras": 0
+ },
+ {
+  "n": 53,
+  "kind": "momo",
+  "page": 59,
+  "link": "https://www.tradingview.com/x/GwWpwoB8/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": "The move into the level was quite “steep”. Not an obvious “grind”."
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   808
+  ],
+  "extras": 0
+ },
+ {
+  "n": 54,
+  "kind": "momo",
+  "page": 60,
+  "link": "https://www.tradingview.com/x/1iYAUwbK/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1814,
+   953
+  ],
+  "extras": 0
+ },
+ {
+  "n": 55,
+  "kind": "momo",
+  "page": 61,
+  "link": "https://www.tradingview.com/x/gAfGfyrb/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   800
+  ],
+  "extras": 2
+ },
+ {
+  "n": 56,
+  "kind": "momo",
+  "page": 62,
+  "link": "https://www.tradingview.com/x/5WHiKjnr/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   808
+  ],
+  "extras": 0
+ },
+ {
+  "n": 57,
+  "kind": "momo",
+  "page": 63,
+  "link": "https://www.tradingview.com/x/1TT1gIl1/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1417,
+   956
+  ],
+  "extras": 0
+ },
+ {
+  "n": 58,
+  "kind": "momo",
+  "page": 64,
+  "link": "https://www.tradingview.com/x/9mhGRTSL/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   814
+  ],
+  "extras": 0
+ },
+ {
+  "n": 59,
+  "kind": "momo",
+  "page": 65,
+  "link": "https://www.tradingview.com/x/WfDRFnJb/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume is flagged as “increasing” because the avg. volume at the point of entry is HIGHER than what the avg. volume was at the beginning of the staircase."
+  ],
+  "img": [
+   2048,
+   737
+  ],
+  "extras": 0
+ },
+ {
+  "n": 60,
+  "kind": "momo",
+  "page": 66,
+  "link": "https://www.tradingview.com/x/zHivux7w/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume is “technically” increasing, but for most of the staircase it looks flat.",
+   "Despite the volume being trickier to interpret, the trade is still valid for a Momo Short.",
+   "Extra comment: the entry was executed on a VERY recent level. Ideally the entry was taken on a more relevant swing low."
+  ],
+  "img": [
+   1835,
+   887
+  ],
+  "extras": 0
+ },
+ {
+  "n": 61,
+  "kind": "momo",
+  "page": 67,
+  "link": "https://www.tradingview.com/x/MpmXv8bl/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   737
+  ],
+  "extras": 0
+ },
+ {
+  "n": 62,
+  "kind": "momo",
+  "page": 68,
+  "link": "https://www.tradingview.com/x/qBJwJo1O/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The avg. volume at the point of entry is roughly the same as the avg. volume at the place where the downwards staircase began."
+  ],
+  "img": [
+   2048,
+   737
+  ],
+  "extras": 0
+ },
+ {
+  "n": 63,
+  "kind": "momo",
+  "page": 69,
+  "link": "https://www.tradingview.com/x/L48BECXp/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "NOTE",
+   "The average volume at the point of entry is LOWER than what the average volume at the point where the downwards staircase began."
+  ],
+  "img": [
+   2048,
+   1141
+  ],
+  "extras": 0
+ },
+ {
+  "n": 64,
+  "kind": "momo",
+  "page": 70,
+  "link": "https://www.tradingview.com/x/GPEr2WFU/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2042,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 65,
+  "kind": "momo",
+  "page": 71,
+  "link": "https://www.tradingview.com/x/IgxDanWr/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1964,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 66,
+  "kind": "momo",
+  "page": 72,
+  "link": "https://www.tradingview.com/x/hWkqA9Nz/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": "(yes, it was quite big on this trade. Just hard to see in the screenshot)"
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   769
+  ],
+  "extras": 2
+ },
+ {
+  "n": 67,
+  "kind": "momo",
+  "page": 73,
+  "link": "https://www.tradingview.com/x/1O2HovnK/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2000,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 68,
+  "kind": "momo",
+  "page": 74,
+  "link": "https://www.tradingview.com/x/cfLYUeeU/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2044,
+   884
+  ],
+  "extras": 0
+ },
+ {
+  "n": 69,
+  "kind": "momo",
+  "page": 75,
+  "link": "https://www.tradingview.com/x/SHMqaxSr/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Avg. volume at the point of entry is HIGHER than what the avg. volume was at the point where the staircase began.",
+   "Hence the trade is flagged as “increasing” volume."
+  ],
+  "img": [
+   2048,
+   876
+  ],
+  "extras": 0
+ },
+ {
+  "n": 70,
+  "kind": "momo",
+  "page": 76,
+  "link": "https://www.tradingview.com/x/Uo3CEo88/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume was mostly flat and only started increasing in the most recent 30~ minutes or so.",
+   "Despite the volume being trickier to interpret in this trade, it’s still valid for a Momo Short due to the grind into the level."
+  ],
+  "img": [
+   2048,
+   832
+  ],
+  "extras": 2
+ },
+ {
+  "n": 71,
+  "kind": "momo",
+  "page": 77,
+  "link": "https://www.tradingview.com/x/wWx9aWyv/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   808
+  ],
+  "extras": 0
+ },
+ {
+  "n": 72,
+  "kind": "momo",
+  "page": 78,
+  "link": "https://www.tradingview.com/x/HPyj1YhZ/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   808
+  ],
+  "extras": 2
+ },
+ {
+  "n": 73,
+  "kind": "momo",
+  "page": 79,
+  "link": "https://www.tradingview.com/x/j2XUoi6H/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The avg. volume at the point of entry was roughly the same as what the avg. volume was at the starting point of the staircase.",
+   "For that reason we cannot flag this as “increasing volume”.",
+   "Despite the volume being “flat”, the other 2 variables compensate for it."
+  ],
+  "img": [
+   2048,
+   954
+  ],
+  "extras": 0
+ },
+ {
+  "n": 74,
+  "kind": "momo",
+  "page": 80,
+  "link": "https://www.tradingview.com/x/S5ex5PjT/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   880
+  ],
+  "extras": 0
+ },
+ {
+  "n": 75,
+  "kind": "momo",
+  "page": 81,
+  "link": "https://www.tradingview.com/x/JoNnXPbY/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   978
+  ],
+  "extras": 0
+ },
+ {
+  "n": 76,
+  "kind": "momo",
+  "page": 82,
+  "link": "https://www.tradingview.com/x/8fvOSbZj/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume is flagged as “increasing” because the avg. volume at the point of entry is HIGHER than what the avg. volume was at the beginning of the staircase."
+  ],
+  "img": [
+   2000,
+   885
+  ],
+  "extras": 0
+ },
+ {
+  "n": 77,
+  "kind": "momo",
+  "page": 83,
+  "link": "https://www.tradingview.com/x/oycijH9M/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The student here is using their own discretionary variables to measure the quality of the trade. (R^2 , linear regression channels etc.)",
+   "These are not necessary, these concepts just help this specific student.",
+   "Some students take extra initiative to build their own tools and put their own spin on trying to define a high quality “staircase”."
+  ],
+  "img": [
+   1835,
+   878
+  ],
+  "extras": 0
+ },
+ {
+  "n": 78,
+  "kind": "momo",
+  "page": 84,
+  "link": "https://www.tradingview.com/x/fOrBuKBX/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   1156
+  ],
+  "extras": 0
+ },
+ {
+  "n": 79,
+  "kind": "momo",
+  "page": 85,
+  "link": "https://www.tradingview.com/x/BWtrWgFS/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1654,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 80,
+  "kind": "momo",
+  "page": 86,
+  "link": "https://www.tradingview.com/x/cyXzBPUq/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1835,
+   878
+  ],
+  "extras": 0
+ },
+ {
+  "n": 81,
+  "kind": "momo",
+  "page": 87,
+  "link": "https://www.tradingview.com/x/mW3jIKNi/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1729,
+   900
+  ],
+  "extras": 0
+ },
+ {
+  "n": 82,
+  "kind": "momo",
+  "page": 88,
+  "link": "https://www.tradingview.com/x/5gOV72E1/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   1917
+  ],
+  "extras": 0
+ },
+ {
+  "n": 83,
+  "kind": "momo",
+  "page": 89,
+  "link": "https://www.tradingview.com/x/ZRkUePNT/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1883,
+   1221
+  ],
+  "extras": 0
+ },
+ {
+  "n": 84,
+  "kind": "momo",
+  "page": 90,
+  "link": "https://www.tradingview.com/x/jGU5LgMn/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1838,
+   931
+  ],
+  "extras": 0
+ },
+ {
+  "n": 85,
+  "kind": "momo",
+  "page": 91,
+  "link": "https://www.tradingview.com/x/S5ZldZTk/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "You may notice this student has several indicators on this chart. Some come from ZC and some come from outside of ZC",
+   "Spaceman Levels = an indicator which helps draw systematic levels (such as high/low of the previous 4 hour)",
+   "Spicy Momentum = the old version of the ZC Momentum Indicator, which is just open interest with some EMA’s on top of it. (introduced later in Phase 4)"
+  ],
+  "img": [
+   1667,
+   898
+  ],
+  "extras": 0
+ },
+ {
+  "n": 86,
+  "kind": "momo",
+  "page": 92,
+  "link": "https://www.tradingview.com/x/a0tXyWHs/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The avg. volume at the point of entry is higher than what the avg. volume was at the point where the staircase began.",
+   "That is why the volume is classified as “increasing”."
+  ],
+  "img": [
+   2048,
+   1291
+  ],
+  "extras": 0
+ },
+ {
+  "n": 87,
+  "kind": "momo",
+  "page": 93,
+  "link": "https://www.tradingview.com/x/WYniHXZt/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   1291
+  ],
+  "extras": 2
+ },
+ {
+  "n": 88,
+  "kind": "momo",
+  "page": 94,
+  "link": "https://www.tradingview.com/x/pzb6Uo42/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1835,
+   816
+  ],
+  "extras": 0
+ },
+ {
+  "n": 89,
+  "kind": "momo",
+  "page": 95,
+  "link": "https://www.tradingview.com/x/FFpEK1qM/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume is “technically” increasing, but for a large part of the staircase (especially recently) it looks a bit more flat.",
+   "Despite the volume being trickier to interpret, due to the really clean “grindy structure” of the price action it’s still valid for a Momo Long."
+  ],
+  "img": [
+   1269,
+   721
+  ],
+  "extras": 0
+ },
+ {
+  "n": 90,
+  "kind": "momo",
+  "page": 96,
+  "link": "https://www.tradingview.com/x/eBT1BGm5/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1269,
+   721
+  ],
+  "extras": 0
+ },
+ {
+  "n": 91,
+  "kind": "momo",
+  "page": 97,
+  "link": "https://www.tradingview.com/x/CjZz1Xuz/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1365,
+   1361
+  ],
+  "extras": 0
+ },
+ {
+  "n": 92,
+  "kind": "momo",
+  "page": 98,
+  "link": "https://www.tradingview.com/x/aDuqGxtc/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The average volume is technically higher at the point of entry than the starting point of the staircase, but only just barely.",
+   "Despite the volume being a bit trickier to interpret, the trade is still valid for a Momo Short due to the grindy structure of the price action."
+  ],
+  "img": [
+   1561,
+   904
+  ],
+  "extras": 0
+ },
+ {
+  "n": 93,
+  "kind": "momo",
+  "page": 99,
+  "link": "https://www.tradingview.com/x/tBaW1rfc/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1864,
+   994
+  ],
+  "extras": 0
+ },
+ {
+  "n": 94,
+  "kind": "momo",
+  "page": 100,
+  "link": "https://www.tradingview.com/x/5CN8Khkt/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   1094
+  ],
+  "extras": 0
+ },
+ {
+  "n": 95,
+  "kind": "momo",
+  "page": 101,
+  "link": "https://www.tradingview.com/x/mLyQ17xm/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   1060
+  ],
+  "extras": 0
+ },
+ {
+  "n": 96,
+  "kind": "momo",
+  "page": 102,
+  "link": "https://www.tradingview.com/x/jpB77Wgq/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   1026
+  ],
+  "extras": 0
+ },
+ {
+  "n": 97,
+  "kind": "momo",
+  "page": 103,
+  "link": "https://www.tradingview.com/x/vMbk1HTt/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1728,
+   1185
+  ],
+  "extras": 0
+ },
+ {
+  "n": 98,
+  "kind": "momo",
+  "page": 104,
+  "link": "https://www.tradingview.com/x/apvL1aHH/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1529,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 99,
+  "kind": "momo",
+  "page": 105,
+  "link": "https://www.tradingview.com/x/mGSl4Byf/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1529,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 100,
+  "kind": "momo",
+  "page": 106,
+  "link": "https://www.tradingview.com/x/kW3xyfKA/",
+  "marks": [
+   {
+    "q": "Did the price slowly grind into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume consistently increasing?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a “grindy staircase” on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1477,
+   774
+  ],
+  "extras": 0
+ }
+]

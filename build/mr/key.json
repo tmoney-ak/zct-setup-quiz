@@ -1,0 +1,3096 @@
+[
+ {
+  "n": 1,
+  "kind": "mr",
+  "page": 7,
+  "link": "https://www.tradingview.com/x/XdFl0bCT/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1488,
+   909
+  ],
+  "extras": 0
+ },
+ {
+  "n": 2,
+  "kind": "mr",
+  "page": 8,
+  "link": "https://www.tradingview.com/x/K8lzMK8j/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1634,
+   909
+  ],
+  "extras": 0
+ },
+ {
+  "n": 3,
+  "kind": "mr",
+  "page": 9,
+  "link": "https://www.tradingview.com/x/afFg0f4z/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1634,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 4,
+  "kind": "mr",
+  "page": 10,
+  "link": "https://www.tradingview.com/x/hD8QLYsw/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1634,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 5,
+  "kind": "mr",
+  "page": 11,
+  "link": "https://www.tradingview.com/x/M6kB7Gvk/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The coin looks like it was trending upwards previously but from 05:00 it looks like it’s been going “somewhat sideways”.",
+   "So with this coin it’s not exactly a “clean trend” but nor is it a “clean sideways range”. It’s somewhere in the middle.",
+   "The trade is still valid for a MR short because of the “spike” into the level + the “flat volume”."
+  ],
+  "img": [
+   1615,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 6,
+  "kind": "mr",
+  "page": 12,
+  "link": "https://www.tradingview.com/x/odsDGqIg/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "This is classified as having a “fast spike” due to the size of the move coming into the level as well as the steep slope of the move approaching the level. This would be a “lower quality” fast spike (still steep, but it didn’t just go vertical in a single 1 candle).",
+   "If you were to look closely at the avg. volume, it’s “technically” increasing. However it’s only “just barely” increasing. The volume coming in per average 1 minute candle since 07:00 UTC is roughly the same."
+  ],
+  "img": [
+   1080,
+   627
+  ],
+  "extras": 0
+ },
+ {
+  "n": 7,
+  "kind": "mr",
+  "page": 13,
+  "link": "https://www.tradingview.com/x/0b6vVfW8/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The “initial” move into the level was quite steep (which is decent for MR) but this trade can’t be classified with a “fast spike”.",
+   "The reason why this trade was still valid to take was because of “how severely choppy/sideways” the left hand side of the chart is.",
+   "This is one of the rare instances where only 1/3 of the variables are met, but since the one which has the ✅ is so severe that it justifies looking for a MR trade."
+  ],
+  "img": [
+   1634,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 8,
+  "kind": "mr",
+  "page": 14,
+  "link": "https://www.tradingview.com/x/V7NiWMb1/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "no",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1634,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 9,
+  "kind": "mr",
+  "page": 15,
+  "link": "https://www.tradingview.com/x/GcTpj2t9/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": "(not a clean spike due to the slope though)"
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1634,
+   939
+  ],
+  "extras": 1
+ },
+ {
+  "n": 10,
+  "kind": "mr",
+  "page": 16,
+  "link": "https://www.tradingview.com/x/Qq0htMtS/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1835,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 11,
+  "kind": "mr",
+  "page": 17,
+  "link": "https://www.tradingview.com/x/fB1esYi2/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The reason why this coin cannot be flagged as having “choppy price action” is because from 10:00 UTC it looks like it was somewhat grinding upwards.",
+   "But at the same time the coin hasn’t really moved that much (as evident from the price action from before 10:00 UTC).",
+   "So this one is where it’s right in the middle: not really a good trend but not really a good sideways choppy range either.",
+   "However the trade is still valid for a MR Short due to the flat volume (before entry) + the vertical/steep move into the level."
+  ],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 12,
+  "kind": "mr",
+  "page": 18,
+  "link": "https://www.tradingview.com/x/HUBLcShN/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume was flat before the spike. The volume generated by the spike is causing the average volume to go up. But if you examine the volume bars that come right after the spike, the volume is gradually decreasing.",
+   "Even though the volume is trickier to interpret on this one, it’s still a valid MR short due to the fast spike being a very high quality spike (it’s a large spike + very steep)"
+  ],
+  "img": [
+   1614,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 13,
+  "kind": "mr",
+  "page": 19,
+  "link": "https://www.tradingview.com/x/mFoldAyw/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": "(unclear)"
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "This should emphasize the importance of having clear screenshots. If a variable isn’t clearly visible in the screenshot it makes the quality of the trade harder to interpret when performing a screenshot review. It would be much better if there was a key level that was drawn. It is advised that the spike happens into a key level rather than into random thin air. Nonetheless, the way the spike was executed was still clean.",
+   "Relevant video: 2 ways you can enter on a Fast Spike"
+  ],
+  "img": [
+   1585,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 14,
+  "kind": "mr",
+  "page": 20,
+  "link": "https://www.tradingview.com/x/qrII0S7y/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The reason why the volume is flagged as “flat” on this trade is because the volume was flat BEFORE the spike appeared.",
+   "Yes it’s technically “going up” while the spike is being created, but we can dismiss this. This is likely to be 1 participant or a small group of participants spreading their market buys over time instead of clicking into the coin with 1 order."
+  ],
+  "img": [
+   1585,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 15,
+  "kind": "mr",
+  "page": 21,
+  "link": "https://www.tradingview.com/x/9rGhZ9JR/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "From 17:00 - 17:30 there is a slow grind.",
+   "But before then is choppy sideways price action (the hint to this is how the resistance levels are being chopped around/rejected at + there are flat MA’s before 16:00 UTC suggesting the presence of sideways price action)",
+   "Despite the 3rd variable being a bit tricky to interpret, it’s still a valid MR short to take because of the fast spike into the level with flat volume."
+  ],
+  "img": [
+   1585,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 16,
+  "kind": "mr",
+  "page": 22,
+  "link": "https://www.tradingview.com/x/grzprlOn/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1530,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 17,
+  "kind": "mr",
+  "page": 23,
+  "link": "https://www.tradingview.com/x/CBfJbwcZ/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume was flat before the spike happened. The volume started going up during the creation of the spike.",
+   "But the avg. volume is only being pulled up because of that spike, which likely is just 1 (or a few) participants spamming market buys rather than hitting into 1 single order based on how the structure of price action.",
+   "Despite the volume being a little bit trickier to interpret, the trade is still valid for a MR short because of the vertical spike into the level + the choppy price action on the left hand side."
+  ],
+  "img": [
+   1536,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 18,
+  "kind": "mr",
+  "page": 24,
+  "link": "https://www.tradingview.com/x/kgefxE8x/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "(similar to the previous trade)",
+   "The volume was flat before the spike happened. The volume started going up during the creation of the spike.",
+   "But the avg. volume is only being pulled up because of that spike, which likely is just 1 (or a few) participants spamming market buys rather than hitting into 1 single order based on how the structure of price action.",
+   "Despite the volume being a little bit trickier to interpret, the trade is still valid for a MR short because of the vertical spike into the level + the choppy price action on the left hand side."
+  ],
+  "img": [
+   1529,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 19,
+  "kind": "mr",
+  "page": 25,
+  "link": "https://www.tradingview.com/x/pmGOQbCl/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 20,
+  "kind": "mr",
+  "page": 26,
+  "link": "https://www.tradingview.com/x/vgr9QQW6/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume has been mostly flat for the entire regime. The “average” started getting pulled up after the huge spike."
+  ],
+  "img": [
+   1835,
+   849
+  ],
+  "extras": 0
+ },
+ {
+  "n": 21,
+  "kind": "mr",
+  "page": 27,
+  "link": "https://www.tradingview.com/x/peOOlal7/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1566,
+   854
+  ],
+  "extras": 0
+ },
+ {
+  "n": 22,
+  "kind": "mr",
+  "page": 28,
+  "link": "https://www.tradingview.com/x/H3NYQySI/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": "(it was flat before but the avg. increased after the spike. Up to subjective interpretation here)"
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 23,
+  "kind": "mr",
+  "page": 29,
+  "link": "https://www.tradingview.com/x/BWnoiVob/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 24,
+  "kind": "mr",
+  "page": 30,
+  "link": "https://www.tradingview.com/x/CgNgRnDb/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "So the quality of the “spike” is low due to the slope not being that steep. However it’s still fairly steep which is why it’s classified as a “spike”.",
+   "If you are to compare the distance from the swing high to the swing low relative to all of the previous “legs” on the left hand side it’s clear this “leg” is significantly larger than all the previous."
+  ],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 25,
+  "kind": "mr",
+  "page": 31,
+  "link": "https://www.tradingview.com/x/YXT3EEBx/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   844
+  ],
+  "extras": 0
+ },
+ {
+  "n": 26,
+  "kind": "mr",
+  "page": 32,
+  "link": "https://www.tradingview.com/x/sZ2E1qs8/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume was flat for most of the time. It only started temporarily increasing during the creation of the “low quality spike”.",
+   "Despite the volume being trickier to interpret on this trade, it’s still valid for a MR Short due to the spike into the level + choppy price action on the left hand side."
+  ],
+  "img": [
+   2048,
+   965
+  ],
+  "extras": 0
+ },
+ {
+  "n": 27,
+  "kind": "mr",
+  "page": 33,
+  "link": "https://www.tradingview.com/x/WDioitPr/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   818
+  ],
+  "extras": 0
+ },
+ {
+  "n": 28,
+  "kind": "mr",
+  "page": 34,
+  "link": "https://www.tradingview.com/x/OqLzVtqy/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   818
+  ],
+  "extras": 0
+ },
+ {
+  "n": 29,
+  "kind": "mr",
+  "page": 35,
+  "link": "https://www.tradingview.com/x/39MBHPiM/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   808
+  ],
+  "extras": 0
+ },
+ {
+  "n": 30,
+  "kind": "mr",
+  "page": 36,
+  "link": "https://www.tradingview.com/x/w5OPua2k/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "no",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Even though the size of the spike isn’t that large, the slope of the move is very steep. That’s why it’s still classified as a fast spike.",
+   "The steeper the move = the better it is for MR."
+  ],
+  "img": [
+   2048,
+   957
+  ],
+  "extras": 0
+ },
+ {
+  "n": 31,
+  "kind": "mr",
+  "page": 37,
+  "link": "https://www.tradingview.com/x/GRyMdpTV/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   799
+  ],
+  "extras": 0
+ },
+ {
+  "n": 32,
+  "kind": "mr",
+  "page": 38,
+  "link": "https://www.tradingview.com/x/faP3CJWf/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   808
+  ],
+  "extras": 0
+ },
+ {
+  "n": 33,
+  "kind": "mr",
+  "page": 39,
+  "link": "https://www.tradingview.com/x/AS77BK09/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume was flat for most of the regime but it started increasing over the previous 30 minutes.",
+   "Despite the volume being a bit tricky to interpret on this trade, it’s still valid for a MR Long because of the choppy/sideways price action on the left hand side + the very large/steep spike that occurred right near the entry."
+  ],
+  "img": [
+   2048,
+   808
+  ],
+  "extras": 0
+ },
+ {
+  "n": 34,
+  "kind": "mr",
+  "page": 40,
+  "link": "https://www.tradingview.com/x/IRn4jPNx/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   952
+  ],
+  "extras": 0
+ },
+ {
+  "n": 35,
+  "kind": "mr",
+  "page": 41,
+  "link": "https://www.tradingview.com/x/72qu4IFx/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   808
+  ],
+  "extras": 0
+ },
+ {
+  "n": 36,
+  "kind": "mr",
+  "page": 42,
+  "link": "https://www.tradingview.com/x/exeVK9uk/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   808
+  ],
+  "extras": 0
+ },
+ {
+  "n": 37,
+  "kind": "mr",
+  "page": 43,
+  "link": "https://www.tradingview.com/x/XUMpQeYL/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "no",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "This trade only has 1/3 variables working in its favour. However due to the spike being very steep and large the MR trade is justified here.",
+   "The volume cannot be classified as “flat” because the avg. volume is noticeably higher at the point of entry in comparison to the starting point of the big “staircase” move upwards."
+  ],
+  "img": [
+   2048,
+   808
+  ],
+  "extras": 0
+ },
+ {
+  "n": 38,
+  "kind": "mr",
+  "page": 44,
+  "link": "https://www.tradingview.com/x/TRYb1Eyl/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "It’s a weak looking staircase on the left hand side. At 12:30 UTC it exhausted itself.",
+   "Since the volume was flat and also how there was a fast/vertical spike into the level it justifies the entry with this trade."
+  ],
+  "img": [
+   2048,
+   808
+  ],
+  "extras": 0
+ },
+ {
+  "n": 39,
+  "kind": "mr",
+  "page": 45,
+  "link": "https://www.tradingview.com/x/7nUPxv0r/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The MA’s are criss-crossing fairly regularly suggesting that price is “stuck in a range”.",
+   "The volume was classified as “flat” (despite it being hard to see) because it’s not noticeably “sloped up”. Anytime that the volume is not noticeably “sloped up” it will be classified as “flat”."
+  ],
+  "img": [
+   2048,
+   948
+  ],
+  "extras": 0
+ },
+ {
+  "n": 40,
+  "kind": "mr",
+  "page": 46,
+  "link": "https://www.tradingview.com/x/hZtNOOSb/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   948
+  ],
+  "extras": 0
+ },
+ {
+  "n": 41,
+  "kind": "mr",
+  "page": 47,
+  "link": "https://www.tradingview.com/x/EIWCziNG/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   948
+  ],
+  "extras": 0
+ },
+ {
+  "n": 42,
+  "kind": "mr",
+  "page": 48,
+  "link": "https://www.tradingview.com/x/CPgTx23F/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Volume was mostly flat and it went up during the creation of the fast vertical spike upwards. How afterwards it started decreasing.",
+   "The price action was somewhat choppy/sideways before the spike.",
+   "However despite both the volume + price action on the left hand side being a little trickier to interpret it’s still a valid MR Short due to the size of the spike."
+  ],
+  "img": [
+   2048,
+   1255
+  ],
+  "extras": 0
+ },
+ {
+  "n": 43,
+  "kind": "mr",
+  "page": 49,
+  "link": "https://www.tradingview.com/x/63lHMkAH/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "no",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume is “just barely” increasing. It’s “technically” increasing since the start of the regime but since the spike in price at 17:00 UTC it’s basically been going flat.",
+   "The price action cannot be flagged as “choppy” because Momo Longs would have been “in sync” with all of the price action shown on the chart. Relevant video here: 1 Approach to judging how \"in sync\" your strategy is to Recent Price Action"
+  ],
+  "img": [
+   2048,
+   1038
+  ],
+  "extras": 0
+ },
+ {
+  "n": 44,
+  "kind": "mr",
+  "page": 50,
+  "link": "https://www.tradingview.com/x/kqp81ClA/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "From 17:00 - 18:00 there was a steep drop, but it’s not really that great of a staircase for momo shorts.",
+   "Before 17:00 the price action looks very choppy/sideways.",
+   "Despite the price action on the left hand side being tricky to interpret the trade is still valid for a MR short here because of the spike into the level."
+  ],
+  "img": [
+   2048,
+   1038
+  ],
+  "extras": 0
+ },
+ {
+  "n": 45,
+  "kind": "mr",
+  "page": 51,
+  "link": "https://www.tradingview.com/x/JBTTa3Vi/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   882
+  ],
+  "extras": 0
+ },
+ {
+  "n": 46,
+  "kind": "mr",
+  "page": 52,
+  "link": "https://www.tradingview.com/x/9Yfn98Im/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   882
+  ],
+  "extras": 0
+ },
+ {
+  "n": 47,
+  "kind": "mr",
+  "page": 53,
+  "link": "https://www.tradingview.com/x/f3VuZhBh/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   814
+  ],
+  "extras": 0
+ },
+ {
+  "n": 48,
+  "kind": "mr",
+  "page": 54,
+  "link": "https://www.tradingview.com/x/iMlNSWtO/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The slope of the recent move into the move is quite steep.",
+   "It’s not “vertical” so it’s not the best looking spike but it’s still classified as a spike."
+  ],
+  "img": [
+   2048,
+   812
+  ],
+  "extras": 0
+ },
+ {
+  "n": 49,
+  "kind": "mr",
+  "page": 55,
+  "link": "https://www.tradingview.com/x/xXGpTSQ8/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "the 2nd trade (MR Short) is the cleaner one. The 1st one (MR Long) had a “grind into the level” which makes it a much higher risk. This student (Janus) decided to take it due to the stall that occurred as price hit the level which is still valid but the margin of error of doing this is very low. Focus on the 2nd trade rather than the 1st one."
+  ],
+  "img": [
+   2014,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 50,
+  "kind": "mr",
+  "page": 56,
+  "link": "https://www.tradingview.com/x/L6YtqvCK/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2014,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 51,
+  "kind": "mr",
+  "page": 57,
+  "link": "https://www.tradingview.com/x/xSSL3Qx0/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "This is referring to the 3rd trade, the one on the far right and circled with the yellow highlighter."
+  ],
+  "img": [
+   2014,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 52,
+  "kind": "mr",
+  "page": 58,
+  "link": "https://www.tradingview.com/x/1bkhKS0C/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Price is classified as “spike” because the slope into the level is steep + the size into the move relative to the nearby “legs” is quite large.",
+   "Volume is classified as “decreasing/flat” due to the avg. volume being noticeably lower at the point of entry when compared to the left hand side.",
+   "Recent price action is classified as “Choppy” due to the price action since 09:00 being rangebound (the same S/R levels are being tagged multiple times)."
+  ],
+  "img": [
+   2014,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 53,
+  "kind": "mr",
+  "page": 59,
+  "link": "https://www.tradingview.com/x/L4vfL0lM/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   812
+  ],
+  "extras": 0
+ },
+ {
+  "n": 54,
+  "kind": "mr",
+  "page": 60,
+  "link": "https://www.tradingview.com/x/VjwsDzoo/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2014,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 55,
+  "kind": "mr",
+  "page": 61,
+  "link": "https://www.tradingview.com/x/1GauAUGA/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2014,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 56,
+  "kind": "mr",
+  "page": 62,
+  "link": "https://www.tradingview.com/x/4XLd9rJ4/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The reason why this is classified as a “spike into the level” is due to the slope of the move + the accompanying spike in the volume at the time of entry."
+  ],
+  "img": [
+   2014,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 57,
+  "kind": "mr",
+  "page": 63,
+  "link": "https://www.tradingview.com/x/3wVmCt73/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2014,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 58,
+  "kind": "mr",
+  "page": 64,
+  "link": "https://www.tradingview.com/x/YDn9GXYx/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   739
+  ],
+  "extras": 0
+ },
+ {
+  "n": 59,
+  "kind": "mr",
+  "page": 65,
+  "link": "https://www.tradingview.com/x/zJHF83Ab/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "both trades are valid. The quality of the “spike into the level” in both of the trades was low, but one can still somewhat classify them as a “spike” due to the high steepness of the move approaching the level."
+  ],
+  "img": [
+   2014,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 60,
+  "kind": "mr",
+  "page": 66,
+  "link": "https://www.tradingview.com/x/R6x5DmIQ/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The reason why this trade is classified as having a “fast spike” into the level is because of the “slope” of the move (very steep) + the accompanying spike in the volume.",
+   "It’s not a “high quality” spike because the size of the move isn’t particularly large, but it’s still classified as a spike nonetheless. It’s just not as good as the noticeably large ones."
+  ],
+  "img": [
+   2048,
+   782
+  ],
+  "extras": 0
+ },
+ {
+  "n": 61,
+  "kind": "mr",
+  "page": 67,
+  "link": "https://www.tradingview.com/x/7dkUgO2a/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The price action was classified as a “spike” due to the slope or “steepness” of the move as well as the size of the “leg” being large in comparison to the nearby “legs” on the left hand side.",
+   "It’s a “low quality spike” , but it’s still classified as a spike nonetheless."
+  ],
+  "img": [
+   2048,
+   712
+  ],
+  "extras": 0
+ },
+ {
+  "n": 62,
+  "kind": "mr",
+  "page": 68,
+  "link": "https://www.tradingview.com/x/OVTRoY7F/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "both trades are valid here. Even though neither of them had a spike into the level, the price action on the left hand side was very choppy which justified it.",
+   "From 13:00 - 20:00 Momentum Trades would not be in sync.",
+   "Price was regularly rejecting nearby recent support/resistance levels + the moving averages were continuously criss-crossing (rather than fanned out for an extended period of time).",
+   "This is why the 3rd variable is classified as “choppy/sideways price action”."
+  ],
+  "img": [
+   2048,
+   712
+  ],
+  "extras": 0
+ },
+ {
+  "n": 63,
+  "kind": "mr",
+  "page": 69,
+  "link": "https://www.tradingview.com/x/UlqaJng1/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Yes there is a somewhat “upwards looking price action” on this chart.",
+   "However if each of the swing highs/lows are observed one can see that these levels are regularly rejected or chopped around at.",
+   "It’s not the cleanest upwards trend but it’s not the nicest choppy range either, it’s somewhere in the middle.",
+   "Despite the price action being a little tricky to interpret, the flat volume + the price/volume spike into the level compensate for this."
+  ],
+  "img": [
+   1985,
+   858
+  ],
+  "extras": 0
+ },
+ {
+  "n": 64,
+  "kind": "mr",
+  "page": 70,
+  "link": "https://www.tradingview.com/x/Bbj3XnZ7/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1985,
+   858
+  ],
+  "extras": 0
+ },
+ {
+  "n": 65,
+  "kind": "mr",
+  "page": 71,
+  "link": "https://www.tradingview.com/x/3Hu1ohgt/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   782
+  ],
+  "extras": 0
+ },
+ {
+  "n": 66,
+  "kind": "mr",
+  "page": 72,
+  "link": "https://www.tradingview.com/x/flxcID5Z/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   712
+  ],
+  "extras": 0
+ },
+ {
+  "n": 67,
+  "kind": "mr",
+  "page": 73,
+  "link": "https://www.tradingview.com/x/OftCKYpu/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The slope of this spike wasn’t that steep, but it is still acceptable.",
+   "From 18:30 - 19:30 it looks like trendy price action, but before then it looks erratic and choppy.",
+   "It’s not a good looking trend but it’s not a good looking range either.",
+   "However the flat volume + spike into the level compensate for this and the trade is still valid to take."
+  ],
+  "img": [
+   2048,
+   782
+  ],
+  "extras": 0
+ },
+ {
+  "n": 68,
+  "kind": "mr",
+  "page": 74,
+  "link": "https://www.tradingview.com/x/je1vzdgu/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "this screenshot is referring to the 2nd trade on the right. The first one had a “grind into the level”. The second had a much cleaner “vertical spike” into the level."
+  ],
+  "img": [
+   1985,
+   858
+  ],
+  "extras": 0
+ },
+ {
+  "n": 69,
+  "kind": "mr",
+  "page": 75,
+  "link": "https://www.tradingview.com/x/DjIGwWNe/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "There was a strong down-trend previously and then the market conditions gradually changed to being a bit more rangebound.",
+   "Despite the price action being a little bit trickier to interpret, the trade is still a valid MR trade due to the fast spike into the level + flat volume."
+  ],
+  "img": [
+   2048,
+   1214
+  ],
+  "extras": 0
+ },
+ {
+  "n": 70,
+  "kind": "mr",
+  "page": 76,
+  "link": "https://www.tradingview.com/x/vLYIip2h/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "both of the trades in this screenshot are valid for MR due to the severe choppy price action on the left hand side (despite price not “spiking” the level). All nearby support/resistance levels are being regularly rejected and chopped around at.",
+   "The way that price approached the level on the first trade is a “low quality spike”. Technically a spike because of the slope of the move, but there was no volume spike accompanying it and the size of the “spike” was quite small too.",
+   "On trade #2 it’s also a “low quality spike”. Even though the size of the move is large, the slope isn’t that steep and there was no volume spike accompanying it. So both are “technically” spikes but they are low quality.",
+   "The choppy price action on the left hand side (with the flat volume) compensated for this."
+  ],
+  "img": [
+   2048,
+   851
+  ],
+  "extras": 0
+ },
+ {
+  "n": 71,
+  "kind": "mr",
+  "page": 77,
+  "link": "https://www.tradingview.com/x/4axjopQU/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "This trade is classified as a fast spike due to the “slope” of the move into the level being quite steep.",
+   "It’s a low quality spike (since it’s not as perfectly steep like a spike that happens in a single 1 candle) but it’s still acceptable for MR.",
+   "Also the flat volume + choppy price action compensate for the spike."
+  ],
+  "img": [
+   2048,
+   769
+  ],
+  "extras": 0
+ },
+ {
+  "n": 72,
+  "kind": "mr",
+  "page": 78,
+  "link": "https://www.tradingview.com/x/GaYol6op/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2037,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 73,
+  "kind": "mr",
+  "page": 79,
+  "link": "https://www.tradingview.com/x/RXmjpYQR/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Even though this trade won, the stoploss placement on this trade was far too tight. The management of this trade would have been impossible because the distance from entry to SL is only 1 candle wide. The trade would conclude too fast for an “early cut” to be possible. Also the slippage risk of the trade would naturally be significantly higher than normal.",
+   "If this trade was executed better, it likely would have been cut for a small loss rather than a win. This is another reminder to focus on the process and not focus too much on the outcome of 1 trade.",
+   "The price action on this trade is classified as “choppy/sideways” due to price continuously rejecting and criss-crossing through the MA’s below the $0.03766 level."
+  ],
+  "img": [
+   2032,
+   891
+  ],
+  "extras": 0
+ },
+ {
+  "n": 74,
+  "kind": "mr",
+  "page": 80,
+  "link": "https://www.tradingview.com/x/60Kcns10/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "This is a really nice mean reversion environment. You don’t need to go for huge targets to really take advantage of a specific market condition - instead you can ramp up the trade frequency within a range by trading the spikes of both MR longs + MR shorts!",
+   "The first trade is still classified as a “spike” , but it’s a lower quality spike compared to the second trade due to the “slope” or “steepness” of the move."
+  ],
+  "img": [
+   1838,
+   931
+  ],
+  "extras": 0
+ },
+ {
+  "n": 75,
+  "kind": "mr",
+  "page": 81,
+  "link": "https://www.tradingview.com/x/RBPeA0fb/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1838,
+   931
+  ],
+  "extras": 0
+ },
+ {
+  "n": 76,
+  "kind": "mr",
+  "page": 82,
+  "link": "https://www.tradingview.com/x/3dLbH01e/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The first 2 screenshots are valid and fantastic for mean reversion.",
+   "The 3rd trade is a momentum short so ignore it. Even though the 3rd trade (the momo short) ended up winning, it actually appears as a low quality setup.",
+   "The volume has been flat from before the very first spike but the volume started gradually increasing after the first spike and then decreasing again (while the average was going up, as the “average value” was simply being pulled up by the original spike).",
+   "While the volume is tricky to interpret in trade #1 and trade #2 , both are still valid MR trades due to having a spike into the level + choppy price action on the left hand side."
+  ],
+  "img": [
+   1567,
+   849
+  ],
+  "extras": 0
+ },
+ {
+  "n": 77,
+  "kind": "mr",
+  "page": 83,
+  "link": "https://www.tradingview.com/x/OX6BO4Gn/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "This trade appears to have a discretionary entry. The standard way of trading a fast spike was not used in this trade.",
+   "Students further ahead in Phase 4 can use more discretion with the entries of their trades (as long as the quality of the setup itself is high enough to justify it)",
+   "However, due to the trade having high margin of error (all 3/3 variables are hit + the spike is quite large and steep) having some differences in how this trade is executed would make little difference to the result of the trade."
+  ],
+  "img": [
+   1478,
+   765
+  ],
+  "extras": 0
+ },
+ {
+  "n": 78,
+  "kind": "mr",
+  "page": 84,
+  "link": "https://www.tradingview.com/x/ey9n0xN5/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "This is classified as a “spike” into the level due to the steep slope of the move.",
+   "It’s not a perfect spike in a single 1 candle, but due to the steep slope of the move it’s still a “spike”.",
+   "Volume is flagged as “hard to interpret” because it was flat before the the giant steep price action began."
+  ],
+  "img": [
+   1665,
+   898
+  ],
+  "extras": 0
+ },
+ {
+  "n": 79,
+  "kind": "mr",
+  "page": 85,
+  "link": "https://www.tradingview.com/x/zrnm9amC/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "These are the BEST types of fast spikes to trade! Pay attention to these as they have the HIGHEST margin of error! Meaning you can fumble the execution and the trade will likely still result in a win!"
+  ],
+  "img": [
+   2036,
+   937
+  ],
+  "extras": 0
+ },
+ {
+  "n": 80,
+  "kind": "mr",
+  "page": 86,
+  "link": "https://www.tradingview.com/x/mK49G2sl/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "When looking at the price action from the swing low up to the swing high it looks more “grindy” rather than a spike.",
+   "Yes it can be argued that perhaps the final candle is a “spike” due to the slope of the move being steep, but the size of the spike is tiny.",
+   "Even if one does classify this as a “spike”, it would be a very very low quality spike."
+  ],
+  "img": [
+   1729,
+   964
+  ],
+  "extras": 0
+ },
+ {
+  "n": 81,
+  "kind": "mr",
+  "page": 87,
+  "link": "https://www.tradingview.com/x/7i9lutCo/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Volume was mostly flat but the “grind upwards with the spike” caused the volume to start moving upwards.",
+   "After the vertical price action the volume started decreasing again.",
+   "That’s why the volume is tagged with a “⚠️” because it’s unclear / challenging to interpret.",
+   "This is flagged as “choppy price action” because all of the support/resistance levels are requiring multiple touches before a break in the level occurs."
+  ],
+  "img": [
+   1667,
+   898
+  ],
+  "extras": 0
+ },
+ {
+  "n": 82,
+  "kind": "mr",
+  "page": 88,
+  "link": "https://www.tradingview.com/x/28CYVfhz/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The slope of the move is quite steep so it’s more of a “low quality spike”.",
+   "But at the same time the price action since the sell off looks “somewhat grindy”.",
+   "That’s why the first variable was flagged with a “⚠️” because it’s tricky to interpret.",
+   "However the flat volume + choppy price action on the left compensate for the first variable and the trade is still valid for a MR short."
+  ],
+  "img": [
+   1667,
+   898
+  ],
+  "extras": 0
+ },
+ {
+  "n": 83,
+  "kind": "mr",
+  "page": 89,
+  "link": "https://www.tradingview.com/x/nok7kKWk/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "This is an A++ type of environment for mean reversion. You could spam both MR longs + MR shorts in this environment with a high margin of error. Notice how almost every support/resistance is being respected? This is IDEAL for Mean Reversion and TERRIBLE for Momentum!"
+  ],
+  "img": [
+   2048,
+   1292
+  ],
+  "extras": 0
+ },
+ {
+  "n": 84,
+  "kind": "mr",
+  "page": 90,
+  "link": "https://www.tradingview.com/x/3O2XTmiT/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1838,
+   931
+  ],
+  "extras": 0
+ },
+ {
+  "n": 85,
+  "kind": "mr",
+  "page": 91,
+  "link": "https://www.tradingview.com/x/rUd8T6JR/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   2048,
+   834
+  ],
+  "extras": 0
+ },
+ {
+  "n": 86,
+  "kind": "mr",
+  "page": 92,
+  "link": "https://www.tradingview.com/x/bCLfMNAh/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "It’s a “low quality spike” because the move into the level is quite steep, but it didn’t happen in a single candle. However it’s still classified as a spike which is good for MR",
+   "The volume is “flat” because the avg. volume (blue line) at the time of entry is roughly the same throughout the entire chart."
+  ],
+  "img": [
+   1365,
+   1361
+  ],
+  "extras": 0
+ },
+ {
+  "n": 87,
+  "kind": "mr",
+  "page": 93,
+  "link": "https://www.tradingview.com/x/bM6sbSyn/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Both of the trades here are valid for mean reversion due to the choppy price action. This environment is terrible for Momentum which makes it fantastic for Mean Reversion.",
+   "The 2nd trade had somewhat increasing volume as price was approaching from the lows made by the big sell off and a “low quality spike” (the size of it was quite small relative to the price action on the left hand side).",
+   "But the MR short still makes sense considering the very choppy price action on the left hand side"
+  ],
+  "img": [
+   1835,
+   849
+  ],
+  "extras": 0
+ },
+ {
+  "n": 88,
+  "kind": "mr",
+  "page": 94,
+  "link": "https://www.tradingview.com/x/8CVkFDlg/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "no",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume cannot be flagged as flat/decreasing because it started to consistently increase leading up to the spike and up to the point of entry.",
+   "Yes the volume started decreasing after the entry, but when assessing the quality of a setup we must look at all the variables BEFORE the entry."
+  ],
+  "img": [
+   1637,
+   939
+  ],
+  "extras": 0
+ },
+ {
+  "n": 89,
+  "kind": "mr",
+  "page": 95,
+  "link": "https://www.tradingview.com/x/AfMerMgk/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "A discretionary entry was used on this setup by this trader.",
+   "The entry was likely after a candle closed BELOW the first initial wick down (swing low) after the creation of the spike.",
+   "It was an ambitious and a bit of a delayed entry (considering how much of the spike has already retraced) ,  but it was worth a shot considering how this is a high quality spike in perfect sideways conditions + flat volume."
+  ],
+  "img": [
+   2048,
+   875
+  ],
+  "extras": 0
+ },
+ {
+  "n": 90,
+  "kind": "mr",
+  "page": 96,
+  "link": "https://www.tradingview.com/x/QHy0ijA2/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1838,
+   931
+  ],
+  "extras": 0
+ },
+ {
+  "n": 91,
+  "kind": "mr",
+  "page": 97,
+  "link": "https://www.tradingview.com/x/hyY45a1K/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "mid",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The reason why the price action is still decent for MR shorts here is because “MR Shorts would have been very in sync with the recent price action.",
+   "If you were to look at the price’s reaction to ALL nearby swing highs on the left hand side you will be able to see that price rejects the majority of them and ends up turning around and falling down.",
+   "Relevant Video: 1 Approach to judging how \"in sync\" your strategy is to Recent Price Action",
+   "Despite the price action being trickier to interpret, it’s still a valid MR short to take because of how nice the spike was into the level + flat volume."
+  ],
+  "img": [
+   1835,
+   849
+  ],
+  "extras": 0
+ },
+ {
+  "n": 92,
+  "kind": "mr",
+  "page": 98,
+  "link": "https://www.tradingview.com/x/Ksxxb6Y5/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1669,
+   898
+  ],
+  "extras": 0
+ },
+ {
+  "n": 93,
+  "kind": "mr",
+  "page": 99,
+  "link": "https://www.tradingview.com/x/8DN9t6Lj/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Before the price started going vertical the volume was pretty much flat.",
+   "However the volume was increasing non-stop for 30minutes straight since the very first spike (potential change in market conditions - due to Open Interest rapidly and consistently increasing at the same time).",
+   "Even though the volume is a bit trickier to interpret in this trade, it’s still valid for a MR short due to the spike into the level + sideways price action on the left hand side."
+  ],
+  "img": [
+   1669,
+   898
+  ],
+  "extras": 0
+ },
+ {
+  "n": 94,
+  "kind": "mr",
+  "page": 100,
+  "link": "https://www.tradingview.com/x/U5ZFlcO0/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1835,
+   849
+  ],
+  "extras": 0
+ },
+ {
+  "n": 95,
+  "kind": "mr",
+  "page": 101,
+  "link": "https://www.tradingview.com/x/C36PvAc8/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Both trades are valid due to the spike into the level, flat volume and choppy price action on the left hand side."
+  ],
+  "img": [
+   2048,
+   834
+  ],
+  "extras": 0
+ },
+ {
+  "n": 96,
+  "kind": "mr",
+  "page": 102,
+  "link": "https://www.tradingview.com/x/Rq3v24yb/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1838,
+   931
+  ],
+  "extras": 0
+ },
+ {
+  "n": 97,
+  "kind": "mr",
+  "page": 103,
+  "link": "https://www.tradingview.com/x/c86nAiN6/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [],
+  "img": [
+   1669,
+   898
+  ],
+  "extras": 0
+ },
+ {
+  "n": 98,
+  "kind": "mr",
+  "page": 104,
+  "link": "https://www.tradingview.com/x/wM3NDr1F/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "Pay attention to these kind of spikes, they are fantastic to trade back down to their origin!"
+  ],
+  "img": [
+   2048,
+   965
+  ],
+  "extras": 1
+ },
+ {
+  "n": 99,
+  "kind": "mr",
+  "page": 105,
+  "link": "https://www.tradingview.com/x/n59qFdJI/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "mid",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "It’s not the cleanest “spike” , but it’s still a fairly steep move into the level with very choppy price action on the left. It makes sense why this student assumed the level would reject."
+  ],
+  "img": [
+   1550,
+   931
+  ],
+  "extras": 0
+ },
+ {
+  "n": 100,
+  "kind": "mr",
+  "page": 106,
+  "link": "https://www.tradingview.com/x/N20clRaG/",
+  "marks": [
+   {
+    "q": "Did the price spike into the level?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was the volume decreasing or flat?",
+    "mark": "yes",
+    "extra": ""
+   },
+   {
+    "q": "Was there a choppy/sideways price action on the left hand side?",
+    "mark": "yes",
+    "extra": ""
+   }
+  ],
+  "notes": [
+   "The volume has been classified as “flat” in this trade because of how the volume looks like before both of  the big “spikes”.",
+   "On the first spike at 08:30 UTC , the volume was stuck as flat. After that spike it pulled up the “average volume” and then it went flat again.",
+   "On the second spike at 09:45 UTC, it “appears” as though the volume is increasing but this is just because the “spike” took more than 1 candle to properly “play out”. After the vertical spike was completed the volume started decreasing and flatlining again.",
+   "This one is slightly trickier to interpret. One just has to be mindful that AFTER a spike occurs there is often a sudden “burst” of activity in the coin because a lot of participants rush in wanting to trade it"
+  ],
+  "img": [
+   1838,
+   931
+  ],
+  "extras": 0
+ }
+]
