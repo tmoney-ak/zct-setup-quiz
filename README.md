@@ -1,5 +1,7 @@
 # ZCT Setup Quality Quiz
 
+**Live:** https://tmoney-ak.github.io/zct-setup-quiz/
+
 A quiz on the top 3 variables of a momentum or mean-reversion setup, built from the two
 "100 High Quality ... Trade Screenshots" docs.
 
@@ -10,7 +12,7 @@ shows the coach's note and marked-up screenshot, and plays the trade out.
 
 ## Using it
 
-Open `index.html` in a browser (double-click works; no server needed).
+Open the live page, or open `index.html` from this folder in a browser (double-click works; no server needed).
 
 - **Students**: choose the exercise, enter a name, pick 10 / 25 / 50 / all charts, press Start.
   Keys: `1` `2` `3` answer the next question (✅ ⚠️ ❌), `Enter` locks in and moves on.
@@ -56,6 +58,10 @@ re-run step 4:
 ```json
 {"mr": {"release": [23, 51], "hold": []}, "momo": {"release": [], "hold": [40]}}
 ```
+
+## Updating it
+
+Edit, commit and push to `main`; GitHub Pages republishes within a minute or two.
 
 ## Settings worth knowing
 
